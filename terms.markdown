@@ -1,5 +1,5 @@
 ---
-layout: privacy
+layout: blank
 title: Terms & Conditions
 permalink: /terms
 ---

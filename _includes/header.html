@@ -36,3 +36,14 @@
 <link href="/asset/css/style.min.css" defer rel="stylesheet">
 
 <link rel="icon" href="/images/system/favicon.ico" type="image/x-icon">
+
+{% if jekyll.environment == "production" %}
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-PH4F4XEEWG');
+</script>
+{% endif %}
