@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  {% include header.html %}
+</head>
+
+<body id="body" data-pagefind-ignore="all">
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto align-self-center text-center">
+          <div class="content">
+            <h2 class="mt-5">Discover, Information, Insights</h2>
+            <p class="">Find valuable insights and detailed information about different products. Discover the
+              latest collections, essential
+              information, and key insights to make better choices.
+              <br><br> Discover products with search
+            </p>
+          </div>
+          <div class="content">
+            <div id="search"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+</body>
+
+</html>
+
+<link href="/asset/css/pagefind.min.css" rel="stylesheet">
+<script src="/asset/pagefind/pagefind-ui.js"></script>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({ element: "#search", baseUrl: "/", showSubResults: true });
+  });
+</script>

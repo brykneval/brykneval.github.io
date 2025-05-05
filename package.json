@@ -1,0 +1,21 @@
+{
+  "name": "jhuppo.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "jekyll build",
+    "process-critical": "node process-critical.js",
+    "build:optimize": "npm run build && npm run process-critical"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "critical": "^7.2.1"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1"
+  }
+}

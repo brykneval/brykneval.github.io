@@ -1,0 +1,92 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Collection - Information, Discover, Insights | Nepal
+email: contact@jhuppo.com
+description: >- # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+# url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jhuppo.com"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+include:
+  - assets/pagefind
+
+exclude:
+  - README.md
+  - node_modules/
+
+defaults:
+  -
+    scope:
+      path: "beauty/cetaphil"
+      type: "pages"
+    values:
+      layout: "beauty"
+      about_brand: "Cetaphil is US brand. Cetaphil is a dermatologically recommended skincare brand developed by Galderma in 1947, originally formulated for sensitive skin. Known for its gentle yet effective cleansers, moisturizers, and sunscreens, Cetaphil products are widely used to hydrate, cleanse, and protect the skin barrier. Its flagship product, Cetaphil Gentle Skin Cleanser, remains a top choice for individuals with dry, sensitive, or acne-prone skin. Free from harsh ingredients, Cetaphil formulations focus on mild surfactants, hydrating agents like glycerin, and soothing components such as niacinamide and ceramides. Available in over 70 countries, the brand continues to be trusted by dermatologists and consumers worldwide."
+      brand: "Cetaphil"
+  -
+    scope:
+      path: "beauty/minimalist"
+      type: "pages"
+    values:
+      layout: "beauty"
+      about_brand: "Minimalist is a science-driven Indian skincare brand known for its transparent and no-nonsense approach to beauty. It focuses on clean, effective formulations using clinically proven ingredients like niacinamide, vitamin C, hyaluronic acid, and retinol to target various skin concerns such as acne, pigmentation, and aging. Minimalist stands out for its ingredient transparency, listing key components clearly and educating consumers on their benefits. All products are dermatologist-tested, fragrance-free, and non-comedogenic, making them suitable for different skin types. Committed to safety and sustainability, the brand ensures its products are cruelty-free, non-toxic, and globally compliant, offering affordable, high-performance skincare solutions."
+      brand: "Minimalist"
+
+
+# jekyll-sitemap:
+#   exclude:
+#     - "/about"       # Page(s) to exclude from sitemap
+#     - "/contact"
+#   include:
+#     - "/products"    # Optionally, force pages or directories to be included
+#   priority: 0.7      # Default priority for URLs
+#   changefreq: "weekly"  # Default change frequency for URLs
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,45 @@
+name: Build and Deploy Jekyll with Pagefind
+
+on:
+  push:
+    branches: [main] # Trigger on pushes to the 'main' branch
+  workflow_dispatch: # Allow manual triggering from the GitHub UI
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby and Jekyll
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.1 # Or specify your Jekyll's Ruby version
+
+      - name: Install Jekyll dependencies
+        run: bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # Or your preferred Node.js version
+
+      - name: Install Pagefind
+        run: npm install pagefind
+
+      - name: Run Pagefind
+        run: npx pagefind --source _site --output-path _site/_pagefind
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site

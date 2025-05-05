@@ -1,0 +1,38 @@
+<!-- ** Basic Page Needs ** -->
+<meta charset="utf-8">
+<title>{{page.title}} | Nepal</title>
+
+<!-- ** Mobile Specific Metas ** -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="{{page.meta_description}}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="jhuppo">
+<meta name="robots" content="index, follow">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ page.title | escape }} | Nepal" />
+<meta property="og:description" content="{{ page.meta_description | escape }}" />
+<meta property="og:type" content="product" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:image" content="{{ site.url }}{{ page.title_img }}" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title | escape }} | Nepal" />
+<meta name="twitter:description" content="{{ page.meta_description | escape }}" />
+<meta name="twitter:image" content="{{ site.url }}{{ page.title_img }}" />
+
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link defer href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+
+<link rel="stylesheet" defer href="/asset/plugins/bootstrap/bootstrap.min.css">
+<link href="/asset/css/style.min.css" defer rel="stylesheet">
+
+<link rel="icon" href="/images/system/favicon.ico" type="image/x-icon">

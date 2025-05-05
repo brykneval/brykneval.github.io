@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  {% include header.html %}
+</head>
+
+<body id="body">
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center text-md-left">
+          <div class="block">
+            <h1 class="mb-4">{{ page.title }}</h1>
+            <p class="mb-4">{{ page.product_line }}</p>
+            <p class="mb-4">{{ page.title_description }}</p>
+            <a href="/{{page.brand | downcase}}" class="btn btn-main" title="Browse All {{page.brand}} Products">Browse
+              All
+              {{page.brand}} Products</a>
+          </div>
+        </div>
+        <div class="col-md-6 text-center mb-5 mb-md-0">
+          <img class="img-fluid" loading="lazy" src="{{page.title_img}}.webp" alt="{{page.title_img_alt}}">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section">
+    <div class="container">
+      <div class="row">
+        <div class="font-weight-bold col-12 mb-4">
+          <h2>What's inside this article</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 align-self-center text-center text-md-left">
+          <div class="content">
+            <h3 class=""><a class="link-title" href="#section-ingredients" title="What are its ingredients">What are its
+                ingredients</a></h3>
+            <h3 class=""><a class="link-title" href="#sectionSuit" title="Who is it for">Who is it for</a></h3>
+            <h3 class=""><a class="link-title" href="#sectionAboutBrand" title="What {{page.brand}} stands for">What
+                {{page.brand}} stands for</a></h3>
+            <h3 class=""><a class="link-title" href="#sectionUsage" title="Usage">How to use</a></h3>
+            <h3 class=""><a class="link-title" href="#sectionBeforeYouBuy" title="Before you buy">Before you buy</a>
+            </h3>
+            <h3 class=""><a class="link-title" href="#sectionBuy" title="Want to buy">Want to buy</a></h3>
+            <h3 class=""><a class="link-title" href="#sectionAbout" title="About {{page.brand}}">About
+                {{page.brand}}</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section" id="section-ingredients">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="heading pb-28">
+            <h2>What are its ingredients</h2>
+            <p>The ingredients for {{page.title}} are</p>
+            <p>{{ page.ingredients }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-40">
+        <div class="col-md-6 align-self-center text-center text-md-left">
+          <div class="content">
+            <h3 class="">Ingredients Summary</h3>
+            <p>{{ page.ingredients_summary }}</p>
+          </div>
+        </div>
+        <div class="col-md-6 text-center text-md-left">
+          <div class="content">
+            <h3 class="">Ingredients Quality</h3>
+            <p>{{ page.ingredients_quality }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section" id="sectionSuit">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="heading pb-28">
+            <h2>Will this product suit you</h2>
+            <p>Not every product suits every skin—but not trying what your skin truly needs
+              could mean holding onto
+              issues longer than
+              you have to. The real risk isn’t trying—it’s missing the one that could’ve worked.</p>
+          </div>
+          <div class="col-md-12 order-md-1 order-2 align-self-center mb-5">
+            <div class="content">
+              <h3 class="">Based on your skin type</h3>
+              <p>{{page.based_skin}}
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12 order-md-1 order-2">
+            <div class="content">
+              <h3 class="">Based on your age</h3>
+              <p>{{page.based_age}}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 text-center mb-5 mb-md-0">
+          <img class="img-fluid" loading="lazy" src="{{page.secondary_img}}.webp" alt="{{page.secondary_img_alt}}">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sectionAboutBrand">
+    <div class="container">
+      {{page.brand_info}}
+    </div>
+  </section>
+
+  <section class="feature-list section" id="sectionUsage">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="heading pb-28">
+            <h2>Usage</h2>
+            <p>{{ page.usage }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sectionBeforeYouBuy">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="heading pb-28">
+            <h2>Before you buy</h2>
+            <p>Buy the wrong product, and your skin pays the price—not just in money, but in time, damage, and regret.
+              Choose
+              wisely—your skin doesn’t get a reset button.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
+          <div class="">
+            <h3 class="mb-2">Choose for</h3>
+            <p>
+              {{ page.choose_for }}
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
+          <div class="">
+            <h3 class="mb-2">Avoid if</h3>
+            <p>
+              {{ page.avoid_if }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sectionBuy">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="heading pb-28">
+            <h2>To buy</h2>
+            <p>This price for {{page.title}} is only for
+              representation
+              purpose. Price
+              may differ on actual website.</p>
+          </div>
+          {{ page.content }}
+          <div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
+            <p>
+              <a href="https://wa.me/9704583400?text={{ site.url }}{{ page.url }}" class="link-title"
+                title="Any Questions?"><img loading="lazy" src="/images/icons/social/whatsapp-icon.png"
+                  alt="whatsapp icon to contact" class="m-2" style="width: 48px;">Any Questions?
+              </a>
+            </p>
+          </div>
+          <div class="pt-4">
+            <p><i>Disclaimer: When you buy through links above, we may earn a commission. The information provided about
+                the
+                product is for general informational
+                purposes
+                only and
+                is not intended as medical advice or to diagnose, treat, cure, or prevent any skin conditions or
+                illnesses.
+                Individual
+                results may vary depending on skin type, usage, and other factors.
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sectionAbout">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 align-self-center text-center text-md-left">
+          <div class="content">
+            <h2 class="subheading mb-10">About {{page.brand}}</h2>
+            <p>
+              {{page.about_brand}}
+            </p>
+            <a href="/{{page.brand | downcase}}" class="btn btn-main" title="Browse All {{page.brand}} Products">Browse
+              All
+              {{page.brand}} Products</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<footer>
+  {% include footer.html %}
+</footer>
+
+{% assign three_months_from_now = "now" | date: "%Y-%m-%d" | date: "%s" | plus: 7884000 | date: "%Y-%m-%d" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "ProductGroup",
+  "@id": "#{{page.sku}}",
+  "productGroupID": "{{page.sku}}",
+  "name": "{{page.title}}",
+  "description": "{{page.meta_description}}",
+  "image": "{{ site.url }}{{page.title_img}}.webp",
+  "brand": {
+    "@type": "Brand",
+    "name": "{{page.brand}}"
+  },
+  "sku": "{{page.sku}}",
+  "category": "{{page.meta_category}}",
+  "hasVariant": 
+  [
+    {% assign items = page.variants | split: "," %}
+    {% for item in items %}
+    {
+      {% assign splittedItems = item | split: "_" %}
+      "@type": "Product",
+        "name": "{{page.title}} | {{splittedItems[1]}}",
+        "sku": "{{splittedItems[0]}}",
+        "{{page.variant_type}}": "{{splittedItems[1]}}",
+        "image": "{{ site.url }}{{page.title_img}}.webp",
+        "isVariantOf": { "@id": "#{{page.sku}}" },
+        "offers":
+        {
+          "@type": "Offer",
+          "price": "{{splittedItems[2]}}",
+          "priceCurrency": "NPR",
+          "availability": "https://schema.org/InStock",
+          "itemCondition": "https://schema.org/NewCondition",
+          "url": "{{ site.url }}{{ page.url }}",
+          "priceValidUntil": "{{three_months_from_now}}",
+          "seller": {
+            "@type": "Organization",
+            "name": "Daraz Nepal"
+          }
+        }
+    }
+    {% if forloop.last %}
+    {% else %},
+    {% endif %}
+  {% endfor %}
+  ],
+  "color": "White",
+  "material": "[{{page.dispenser}}]",
+  "additionalProperty": 
+  [
+    {
+      "@type": "PropertyValue",
+      "name": "GPC",
+      "value": "{{page.gpc}}"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Ingredients",
+      "value": "{{page.ingredients}}"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Products",
+      "item": "{{ site.url }}/{{ page.brand }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{page.title}} | Nepal",
+      "item": "{{ site.url }}{{ page.url }}"
+    }
+  ]
+}
+</script>
+
+</html>

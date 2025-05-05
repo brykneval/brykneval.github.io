@@ -1,0 +1,16 @@
+.sass-cache
+.jekyll-cache
+_site/
+.bundle/
+vendor/bundle/
+node_modules/
+images/unprocessed/
+images/processed/
+bash/
+schema/
+Gemfile.lock
+pagefind.sh
+*.log
+*.swp
+*.swo
+.DS_Store

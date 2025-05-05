@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  {% include header.html %}
+</head>
+{% if page.title == "Cetaphil" %}
+{% assign data = site.data.beauty.cetaphil-list %}
+{% elsif page.title == "Minimalist" %}
+{% assign data = site.data.beauty.minimalist-list %}
+{% endif %}
+
+<div data-pagefind-meta="image[src]" src="{{page.logo}}">
+</div>
+
+<body id="body">
+  <section class="section gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mb-5">
+          <h1 class="mb-4">Products by {{page.title}}</h1>
+          <p>{{page.description}}</p>
+        </div>
+        {% for item in data %}
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="block">
+            <img class="img-fluid" loading="lazy"
+              src="{{ site.url }}/images/{{page.title | downcase}}/{{item.dash}}-thumb.webp" alt="{{item.title}}">
+          </div>
+          <div class="product-info">
+            <p class="mb-2"><a href="{{ site.url }}/{{page.title | downcase}}/{{ item.dash }}"
+                class="link-title">{{item.title}}</a>
+            </p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</body>
+<footer>
+  {% include footer.html %}
+</footer>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListOrder": "ItemListOrderUnordered",
+  "numberOfItems": {{ data | size }},
+  "itemListElement": [
+  {% for item in data %}
+  {
+    "@type": "ListItem",
+    "position": {{forloop.index}},
+    "item": {
+      "@type": "Product",
+      "name": "{{item.title}}",
+      "image": "{{ site.url }}/images/{{page.brand}}/{{item.dash}}.webp",
+      "url": "{{ site.url }}/{{page.brand}}/{{ item.dash }}",
+      "brand": {
+          "@type": "Brand",
+          "name": "{{page.title}}"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "{{item.price}}",
+          "priceCurrency": "NPR",
+          "availability": "https://schema.org/InStock"
+        },
+         "description": "{{item.description}}",
+         "category": "{{item.category}}",
+        
+      "sku": "{{item.sku}}"
+      } 
+  }
+  {% if forloop.last %}
+    {% else %},
+    {% endif %}
+  {% endfor %}
+  ]
+}
+</script>
+
+</html>
