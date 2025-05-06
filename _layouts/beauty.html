@@ -6,6 +6,7 @@ layout: compress
 
 <head>
   {% include header.html %}
+  <link rel="preload" as="image" href="{{page.title_img}}.webp" type="image/webp" fetchpriority="high">
 </head>
 
 <body id="body">
@@ -23,7 +24,7 @@ layout: compress
           </div>
         </div>
         <div class="col-md-6 text-center mb-5 mb-md-0">
-          <img class="img-fluid" loading="lazy" src="{{page.title_img}}.webp" alt="{{page.title_img_alt}}">
+          <img class="img-fluid" src="{{page.title_img}}.webp" alt="{{page.title_img_alt}}">
         </div>
       </div>
     </div>
@@ -260,6 +261,7 @@ layout: compress
         "sku": "{{splittedItems[0]}}",
         "{{page.variant_type}}": "{{splittedItems[1]}}",
         "image": "{{ site.url }}{{page.title_img}}.webp",
+        "description": "{{page.meta_description}}",
         "isVariantOf": { "@id": "#{{page.sku}}" },
         "offers":
         {
@@ -272,7 +274,7 @@ layout: compress
           "priceValidUntil": "{{three_months_from_now}}",
           "seller": {
             "@type": "Organization",
-            "name": "Daraz Nepal"
+            "name": "Jhuppo"
           }
         }
     }

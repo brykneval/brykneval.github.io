@@ -29,11 +29,27 @@
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link defer href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-    rel="stylesheet">
+<link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    onload="this.onload=null;this.rel='stylesheet'">
 
-<link rel="stylesheet" defer href="/asset/plugins/bootstrap/bootstrap.min.css">
-<link href="/asset/css/style.min.css" defer rel="stylesheet">
+<!-- Fallback -->
+<noscript>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap">
+</noscript>
+
+<link rel="preload" href="/asset/plugins/bootstrap/bootstrap.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="/asset/plugins/bootstrap/bootstrap.min.css">
+</noscript>
+
+<link rel="preload" href="/asset/css/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="/asset/css/style.min.css">
+</noscript>
+
 
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
