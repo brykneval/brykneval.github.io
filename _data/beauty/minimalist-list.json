@@ -1,7 +1,7 @@
 [
     {
         "title": "Minimalist 10% AHA BHA Exfoliating Serum",
-        "dash": "minimalist-aha-bha-exfoliating-serum",
+        "dash": "aha-bha-exfoliating-serum",
         "sku": "MIN-L-MABES-001",
         "price": "961",
         "category": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer",
@@ -9,7 +9,7 @@
     },
     {
         "title": "Minimalist Ceramides 0.3% + Madecassoside Moisturizer",
-        "dash": "minimalist-ceramides-madecassoside-moisturizer",
+        "dash": "ceramides-madecassoside-moisturizer",
         "sku": "MIN-L-MCMM-002",
         "price": "960",
         "category": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer",
@@ -17,7 +17,7 @@
     },
     {
         "title": "Minimalist Salicylic Acid + LHA 2% Body Wash",
-        "dash": "minimalist-salicylic-acid-lha-body-wash",
+        "dash": "salicylic-acid-lha-body-wash",
         "sku": "MIN-L-MSALBW-003",
         "price": "561",
         "category": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer",
@@ -25,7 +25,7 @@
     },
     {
         "title": "Minimalist Niacinamide 5% Body Lotion",
-        "dash": "minimalist-niacinamide-body-lotion",
+        "dash": "niacinamide-body-lotion",
         "sku": "MIN-L-MNBL-004",
         "price": "481",
         "category": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer",
@@ -33,7 +33,7 @@
     },
     {
         "title": "Minimalist Marula Oil 5% Face Moisturizer",
-        "dash": "minimalist-marula-oil-face-moisturizer",
+        "dash": "marula-oil-face-moisturizer",
         "sku": "MIN-L-MMOFM-005",
         "price": "561",
         "category": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer",
@@ -41,7 +41,7 @@
     },
     {
         "title": "Minimalist Vitamin B5 10% Moisturizer",
-        "dash": "minimalist-vitamin-b5-moisturizer",
+        "dash": "vitamin-b5-moisturizer",
         "sku": "MIN-L-MVBM-006",
         "price": "561",
         "category": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer",
@@ -49,7 +49,7 @@
     },
     {
         "title": "Minimalist Retinol 0.3% Face Serum",
-        "dash": "minimalist-retinol-face-serum",
+        "dash": "retinol-face-serum",
         "sku": "MIN-L-MRFS-007",
         "price": "961",
         "category": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer",
@@ -57,7 +57,7 @@
     },
     {
         "title": "Minimalist Light Fluid SPF 50 Sunscreen",
-        "dash": "minimalist-light-fluid-spf-sunscreen",
+        "dash": "light-fluid-spf-sunscreen",
         "sku": "MIN-L-MLFSS-008",
         "price": "801",
         "category": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer",

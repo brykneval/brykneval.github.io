@@ -17,7 +17,7 @@ title_img: /images/cetaphil/cetaphil-moisturizing-cream
 title_img_alt: Cetaphil Moisturizing Cream
 secondary_img: /images/cetaphil/cetaphil-moisturizing-cream-ingredients-label
 secondary_img_alt: Cetaphil Moisturizing Cream Ingredients Label
-permalink: cetaphil/cetaphil-moisturizing-cream
+permalink: cetaphil/moisturizing-cream
 redirect_from: products/cetaphil-moisturising-cream-in-nepal
 title_description: Cetaphil Moisturizing Cream is a rich, hydrating formula designed to combat dryness and restore the skin’s natural moisture barrier. Infused with emollients and humectants like glycerin and sweet almond oil, it provides intense, long-lasting hydration while being gentle on sensitive skin. Dermatologist-tested and free from fragrances, parabens, and lanolin, it’s suitable for a wide range of skin types and perfect for daily use.
 meta_category: "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer"

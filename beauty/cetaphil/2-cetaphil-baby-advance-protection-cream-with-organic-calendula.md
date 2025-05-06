@@ -13,11 +13,11 @@ meta_keywords: "Glycerin, Calendula, Shea butter, Sunflower seed oil, Hydration,
 
 product_line: Don’t wait for rashes to appear—shield your baby’s skin before it's too late.
 brand_info: '<div class="row"><div class="col-12"><img loading="lazy" src="/images/cetaphil/cetaphil-cover.webp" alt="cetaphil cover" class="m-2" style="width: 100%" /></div></div>'
-title_img: /images/cetaphil/cetaphil-baby-advance-protection-cream-with-organic-calendula
+title_img: /images/cetaphil/cetaphil-baby-advance-protection-cream
 title_img_alt: Cetaphil Baby Advance Protection Cream
-secondary_img: /images/cetaphil/cetaphil-baby-advance-protection-cream-with-organic-calendula-ingredients-label
+secondary_img: /images/cetaphil/cetaphil-baby-advance-protection-cream-ingredients-label
 secondary_img_alt: Cetaphil Baby Advance Protection Cream Ingredients Label
-permalink: cetaphil/cetaphil-baby-advance-protection-cream-with-organic-calendula
+permalink: cetaphil/baby-advance-protection-cream
 redirect_from: products/cetaphil-baby-advance-protection-cream-with-organic-calendula-in-nepal
 title_description: Cetaphil Baby Advanced Protection Cream provides intense hydration and protection for delicate baby skin. Enriched with organic calendula, vitamin E, and shea butter, it helps soothe, nourish, and repair dry, sensitive skin. The rich, hypoallergenic formula is clinically proven to protect against dryness for up to 24 hours, making it perfect for daily use on the most delicate skin areas. Dermatologist-tested and free from parabens and mineral oil, it’s safe for newborns and toddlers.
 meta_category: "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer"

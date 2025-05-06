@@ -19,7 +19,7 @@ dispenser: Plastic container
 gpc: 2592
 variants: MIN-L-MSALBW-003-200ML_200 ml_561
 variant_type: size
-permalink: minimalist/minimalist-salicylic-acid-lha-body-wash
+permalink: minimalist/salicylic-acid-lha-body-wash
 redirect_from: products/minimalist-salicylic-acid-lha-2-body-wash-in-nepal
 title_description: Minimalist Salicylic Acid + LHA 2% Body Wash is a gentle exfoliating cleanser that targets body acne, unclogs pores, and removes dead skin cells. This pH-balanced formula with 2% Salicylic Acid and LHA helps control excess oil, reduces blemishes, and leaves skin smoother and clearer with every wash.
 title_img: /images/minimalist/minimalist-salicylic-acid-lha-body-wash

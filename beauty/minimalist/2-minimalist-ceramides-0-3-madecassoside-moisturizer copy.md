@@ -1,6 +1,6 @@
 ---
 title: Minimalist Ceramides 0.3% + Madecassoside Moisturizer
-permalink: minimalist/minimalist-ceramides-madecassoside-moisturizer
+permalink: minimalist/ceramides-madecassoside-moisturizer
 redirect_from: products/minimalist-ceramides-0-3-madecassoside-moisturizer-in-nepal
 meta_description: Buy Minimalist Ceramides 0.3% + Madecassoside Moisturizer in Nepal. Hydrate, repair skin barrier, and calm irritation with dermatologist-tested formula.
 title_description: Minimalist Ceramides 0.3% + Madecassoside Moisturizer is a lightweight, barrier-repairing moisturizer that hydrates, soothes, and strengthens the skin. Formulated with 0.3% Ceramides, Madecassoside, and Oat Extract, it restores the skin barrier, reduces inflammation, and locks in moisture for long-lasting hydration.
