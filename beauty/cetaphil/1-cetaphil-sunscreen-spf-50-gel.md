@@ -29,7 +29,7 @@ variant_type: size
 ---
 <div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
     <p>
-        <a href="https://s.daraz.com.np/s.gadJ?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.png" alt="daraz icon link to product" class="m-2"
+        <a href="https://s.daraz.com.np/s.gadJ?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
             style="width: 48px;">Buy from Daraz - 50 ml
         </a>
     </p>
