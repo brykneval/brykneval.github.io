@@ -7,148 +7,193 @@ title: 404 - Page Not Found
   {% include header.html %}
 </head>
 <style type="text/css" media="screen">
-  body {
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
+  .top {
+    margin-top: 130px;
   }
 
-  .container {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+  .ghost-container {
+    margin: 0 auto;
     position: relative;
-    animation-name: pulse;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    box-shadow: inset 0 0 0 3px #79a6e8;
-    z-index: -1;
+    width: 250px;
+    height: 250px;
   }
 
-  .container:after {
-    content: 'Page Not Found';
+  .ghost {
+    width: 50%;
+    height: 53%;
+    left: 25%;
+    top: 10%;
     position: absolute;
-    color: rgba(255, 255, 255, .7);
-    top: calc(50% - 10px);
-    font-size: 24px;
-    font-family: Helvetica;
+    border-radius: 50% 50% 0 0;
+    background: #EDEDED;
+    border: 1px solid #BFC0C0;
+    border-bottom: none;
+    animation: float 2s ease-out infinite;
+  }
+
+  .ghost-copy {
+    width: 50%;
+    height: 53%;
+    left: 25%;
+    top: 10%;
+    position: absolute;
+    border-radius: 50% 50% 0 0;
+    background: #EDEDED;
+    border: 1px solid #BFC0C0;
+    border-bottom: none;
+    animation: float 2s ease-out infinite;
+    z-index: 0;
+  }
+
+  .face {
+    position: absolute;
     width: 100%;
-    vertical-align: middle;
-    text-align: center;
-    animation-name: text;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    height: 60%;
+    top: 20%;
   }
 
-  .container:before {
-    content: '';
-    width: 16px;
-    height: 50%;
+  .eye,
+  .eye-right {
     position: absolute;
-    display: block;
-    top: 0;
-    left: calc(50% - 8px);
-    z-index: 999;
-    background-image:
-      radial-gradient(circle at top center,
-        #6080c8 0%,
-        #6080c8 8px,
-        transparent 8px,
-        transparent 100%);
-    animation-timing-function: linear;
-    transform-origin: center bottom;
-    animation-name: rotate;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    */
-  }
-
-  .circle {
-    width: 94%;
-    height: 94%;
+    background: #585959;
+    width: 13px;
+    height: 13px;
     border-radius: 50%;
-    background: linear-gradient(to bottom, #80c4e0 0%, #656cd2 100%);
+    top: 40%;
+  }
+
+  .eye {
+    left: 25%;
+  }
+
+  .eye-right {
+    right: 25%;
+  }
+
+  .mouth {
     position: absolute;
-    top: 3%;
-    left: 3%;
+    top: 50%;
+    left: 45%;
+    width: 10px;
+    height: 10px;
+    border: 3px solid;
+    border-radius: 50%;
+    border-color: transparent #585959 #585959 transparent;
+    transform: rotate(45deg);
   }
 
-  .circle:before {
-    content: '';
-    width: 16px;
-    height: 50%;
+  .one,
+  .two,
+  .three,
+  .four {
     position: absolute;
-    display: block;
-    top: -9px;
-    left: calc(50% - 8px);
-    background-image:
-      radial-gradient(circle at top center,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(255, 255, 255, 1) 8px,
-        transparent 8px,
-        transparent 100%);
+    background: #EDEDED;
+    top: 85%;
+    width: 25%;
+    height: 23%;
+    border: 1px solid #BFC0C0;
+    z-index: 0;
   }
 
-  .circle:after {
-    content: '';
-    width: 16px;
-    height: 50%;
+  .one {
+    border-radius: 0 0 100% 30%;
+    left: -1px;
+  }
+
+  .two {
+    left: 23%;
+    border-radius: 0 0 50% 50%;
+  }
+
+  .three {
+    left: 50%;
+    border-radius: 0 0 50% 50%;
+  }
+
+  .four {
+    left: 74.5%;
+    border-radius: 0 0 30% 100%;
+  }
+
+  .shadow {
     position: absolute;
-    display: block;
-    bottom: -9px;
-    left: calc(50% - 8px);
-    background-image:
-      radial-gradient(circle at bottom center,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(255, 255, 255, 1) 8px,
-        transparent 8px,
-        transparent 100%);
+    width: 30%;
+    height: 7%;
+    background: #BFC0C0;
+    left: 35%;
+    top: 80%;
+    border-radius: 50%;
+    animation: scale 2s infinite;
   }
 
-  @keyframes text {
+  @keyframes scale {
     0% {
-      content: 'Slowly Breathe In';
-    }
-
-    100% {
-      content: 'Slowly Breathe Out';
-    }
-  }
-
-  @keyframes rotate {
-    0% {
-      transform: rotate(0deg)
-    }
-
-    50% {
-      transform: rotate(180deg)
-    }
-
-    100% {
-      transform: rotate(360deg)
-    }
-  }
-
-  @keyframes pulse {
-    0% {
-      transform: scale(.6);
-    }
-
-    50% {
       transform: scale(1);
     }
 
-    100% {
-      transform: scale(.6);
+    50% {
+      transform: scale(1.1);
     }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes float {
+    50% {
+      transform: translateY(15px);
+    }
+  }
+
+  /*text styling*/
+  h1 {
+    color: #EDEDED;
+    text-align: center;
+    font-size: 9em;
+    margin: 0;
+    text-shadow: -1px 0 #BFC0C0, 0 1px #BFC0C0, 1px 0 #BFC0C0, 0 -1px #BFC0C0;
+  }
+
+  h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #BFC0C0;
+    margin-top: 40px;
+    font-weight: 900;
   }
 </style>
 
-<div class="container" data-pagefind-ignore>
-  <p class="circle"></p>
-</div>
+<section class="section" data-pagefind-ignore>
+  <div class="container">
+    <div="row">
+      <div class="ghost-container">
+        <div class="top">
+          <h1>404</h1>
+          <h3>page not found</h3>
+
+        </div>
+        <div class="col-md-12 mx-auto align-self-center text-center m-4">
+          <a href="/" class="btn btn-main">Back to Home</a>
+        </div>
+        <div class="ghost-container">
+          <div class="ghost-copy">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+          </div>
+          <div class="ghost">
+            <div class="face">
+              <div class="eye"></div>
+              <div class="eye-right"></div>
+              <div class="mouth"></div>
+            </div>
+          </div>
+          <div class="shadow"></div>
+        </div>
+      </div>
+  </div>
+  </div>
+</section>
