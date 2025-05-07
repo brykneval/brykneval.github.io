@@ -24,8 +24,8 @@ redirect_from: products/minimalist-vitamin-b5-10-moisturizer-in-nepal
 title_description: This Vitamin B5 10% Moisturizer is a lightweight yet deeply hydrating formula that soothes, repairs, and strengthens the skin barrier. Enriched with Vitamin B5 (Panthenol), it helps retain moisture, reduces redness, and promotes skin healing. Ideal for daily use, it keeps skin soft, supple, and healthy without feeling greasy or heavy.
 title_img: /images/minimalist/minimalist-vitamin-b5-moisturizer
 title_img_alt: Minimalist Vitamin B5 10% Moisturizer
-secondary_img: /images/minimalist/minimalist-vitamin-b5-moisturizer-with-model
-secondary_img_alt: Minimalist Vitamin B5 10% Moisturizer With Model
+secondary_img: /images/minimalist/minimalist-vitamin-b5-moisturizer-application-on-girl
+secondary_img_alt: Minimalist Vitamin B5 10% Moisturizer application on girl
 product_line: Skipping deep hydration today could cost you calm, balanced skin tomorrow.
 ---
 <div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">

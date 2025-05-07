@@ -28,7 +28,11 @@ layout: compress
         <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
           <div class="block">
             <img class="img-fluid" loading="lazy"
-              src="{{ site.url }}/images/{{page.title | downcase}}/{{page.title | downcase}}-{{item.dash}}-thumb.webp"
+              src="{{ site.url }}/images/{{page.title | downcase}}/{{page.title | downcase}}-{{item.dash}}-thumb-200w.webp"
+              srcset="{{page.title_img}}-100w.webp 100w,
+                                     {{ site.url }}/images/{{page.title | downcase}}/{{page.title | downcase}}-{{item.dash}}-thumb-200w.webp 200w,
+                                     {{ site.url }}/images/{{page.title | downcase}}/{{page.title | downcase}}-{{item.dash}}-thumb-300w.webp 300w,
+                                     {{ site.url }}/images/{{page.title | downcase}}/{{page.title | downcase}}-{{item.dash}}-thumb-400w.webp 400w"
               alt="{{item.title}}">
           </div>
           <div class="product-info">

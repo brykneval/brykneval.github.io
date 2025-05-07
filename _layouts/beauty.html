@@ -8,6 +8,8 @@ layout: compress
   {% include header.html %}
   <link rel="preload" as="image" href="{{page.title_img}}.webp" type="image/webp" fetchpriority="high">
 </head>
+<div data-pagefind-meta="image[src]" src="{{page.title_img}}-640w.webp">
+</div>
 
 <body id="body">
   <section class="section">
@@ -24,7 +26,10 @@ layout: compress
           </div>
         </div>
         <div class="col-md-6 text-center mb-5 mb-md-0">
-          <img class="img-fluid" src="{{page.title_img}}.webp" alt="{{page.title_img_alt}}">
+          <img class="img-fluid" src="{{page.title_img}}-640w.webp" srcset="{{page.title_img}}-320w.webp 320w,
+                       {{page.title_img}}-640w.webp 640w,
+                       {{page.title_img}}-960w.webp 960w,
+                       {{page.title_img}}-1280w.webp 1280w" alt="{{page.title_img_alt}}">
         </div>
       </div>
     </div>
@@ -114,7 +119,10 @@ layout: compress
           </div>
         </div>
         <div class="col-md-5 text-center mb-5 mb-md-0">
-          <img class="img-fluid" loading="lazy" src="{{page.secondary_img}}.webp" alt="{{page.secondary_img_alt}}">
+          <img class="img-fluid" loading="lazy" src="{{page.secondary_img}}-640w.webp" srcset="{{page.secondary_img}}-320w.webp 320w,
+                                 {{page.secondary_img}}-640w.webp 640w,
+                                 {{page.secondary_img}}-960w.webp 960w,
+                                 {{page.secondary_img}}-1280w.webp 1280w" alt="{{page.secondary_img_alt}}">
         </div>
       </div>
     </div>
@@ -296,6 +304,21 @@ layout: compress
       "@type": "PropertyValue",
       "name": "Ingredients",
       "value": "{{page.ingredients}}"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Ingredients Summary",
+      "value": "{{page.ingredients_summary}}"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Quality",
+      "value": "{{page.ingredients_quality}}"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Usage",
+      "value": "{{page.usage}}"
     }
   ]
 }

@@ -1,13 +1,13 @@
 ---
-title: Minimalist 10% AHA BHA Exfoliating Serum
-permalink: minimalist/aha-bha-exfoliating-serum
+title: Minimalist 10% AHA BHA Face Exfoliator
+permalink: minimalist/aha-bha-face-exfoliator
 redirect_from: products/minimalist-10-aha-bha-exfoliating-serum-in-nepal
 meta_description: Buy Minimalist 10% AHA BHA Exfoliating Serum in Nepal. Gently exfoliate, brighten, and smooth your skin for a clear, refreshed complexion. Dermatologist-tested formula.
 title_description: Minimalist <b>10% AHA BHA Exfoliating Serum</b> is a gentle exfoliating solution designed to rejuvenate the skin by removing dead cells and promoting a radiant complexion. This serum combines <b>Alpha Hydroxy Acids</b> (<b>Glycolic Acid</b> & <b>Lactic Acid</b>) with <b>Beta Hydroxy Acid</b> (<b>Salicylic Acid</b>) to target both the skin's surface and pores, ensuring a thorough exfoliation without causing dryness.
-title_img: /images/minimalist/minimalist-aha-bha-exfoliating-serum
-title_img_alt: Minimalist 10% AHA BHA Exfoliating Serum
-secondary_img: /images/minimalist/minimalist-aha-bha-exfoliating-serum-ingredients-label
-secondary_img_alt: Minimalist 10% AHA BHA Exfoliating Serum Ingredients Label
+title_img: /images/minimalist/minimalist-aha-bha-face-exfoliator
+title_img_alt: Minimalist 10% AHA BHA Face Exfoliator
+secondary_img: /images/minimalist/minimalist-aha-bha-face-exfoliator-ingredients-label
+secondary_img_alt: Minimalist 10% AHA BHA Face Exfoliator Ingredients Label
 ingredients:  Aqua, Lactic Acid, Glycolic Acid, Dimethyl Isosorbide, Methylpropanediol, Sodium Hydroxide, Sodium Hyaluronate, Ethoxydiglycol, Phenoxyethanol, Salicylic Acid, Pullulan, Glycerin, Ethylhexylglycerin, PEG/PPG-17/6 Copolymer, Xanthan Gum, Hydroxyethylcellulose, Sclerotium Gum, Curcuma Longa (Turmeric) Root Extract, Trisodium Ethylenediamine Disuccinate, Lecithin.
 ingredients_summary: This formula combines <b>Lactic Acid</b> and <b>Glycolic Acid</b> (AHAs) for gentle exfoliation, while <b>Salicylic Acid</b> (BHA) penetrates pores to clear <b>blackheads</b> and <b>acne</b>. <b>Sodium Hyaluronate</b> and <b>Glycerin</b> provide hydration, ensuring the skin remains balanced. <b>Turmeric Root Extract</b> adds antioxidant and anti-inflammatory benefits. The blend of gums (<b>Xanthan</b>, <b>Sclerotium</b>, <b>Pullulan</b>) helps with texture and stability, while <b>Dimethyl Isosorbide</b> and <b>Ethoxydiglycol</b> enhance ingredient penetration. <b>Phenoxyethanol</b> and <b>Ethylhexylglycerin</b> act as mild preservatives to maintain product safety.
 ingredients_quality: This serum is formulated with <b>high-quality</b>, <b>science-backed ingredients</b> that offer effective <b>exfoliation</b>, <b>hydration</b>, and <b>skin-soothing</b> properties. The inclusion of well-researched <b>AHAs</b> and <b>BHA</b> ensures <b>deep cleansing</b> and <b>cell turnover</b>, while <b>moisturizing agents</b> prevent excessive dryness. The presence of <b>antioxidants</b> like <b>Turmeric</b> enhances skin protection, making the product suitable for regular use. Additionally, the <b>stabilizers</b> and <b>preservatives</b> used are gentle, ensuring product safety without compromising efficacy.
