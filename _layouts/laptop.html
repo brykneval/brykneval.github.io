@@ -544,7 +544,7 @@ layout: compress
 }  
 </script>
 <script type="application/ld+json">
-{
+{{
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
@@ -557,18 +557,12 @@ layout: compress
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Laptops",
-      "item": "{{ site.url }}/laptops"
+      "name": "{{page.brand}} products",
+      "item": "{{ site.url }}/{{ page.brand | downcase }}"
     },
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "{{page.brand}}",
-      "item": "{{ site.url }}/laptops/{{ page.brand | downcase }}"
-    },
-    {
-      "@type": "ListItem",
-      "position": 4,
       "name": "{{page.title}} | Nepal",
       "item": "{{ site.url }}{{ page.url }}"
     }
