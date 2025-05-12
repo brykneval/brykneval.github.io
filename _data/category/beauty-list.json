@@ -1,12 +1,12 @@
 [
     {
         "title": "Minimalist",
-        "image": "/images/brands/minimalist-logo",
+        "image": "/images/brands/minimalist-logo.jpg",
         "url": "minimalist"
     },
     {
         "title": "Cetaphil",
-        "image": "/images/brands/cetaphil-logo",
+        "image": "/images/brands/cetaphil-logo.jpg",
         "url": "cetaphil"
     }
 ]
