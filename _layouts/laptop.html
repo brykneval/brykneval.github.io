@@ -6,7 +6,7 @@ layout: compress
 
 <head>
   {% include header.html %}
-  <link rel="preload" as="image" href="{{page.cover_img}}-960w.webp" type="image/webp" fetchpriority="high">
+  <link rel="preload" as="image" href="{{page.cover_img}}-640w.webp" type="image/webp" fetchpriority="high">
 </head>
 {% assign three_months_from_now = "now" | date: "%Y-%m-%d" | date: "%s" | plus: 7884000 | date: "%Y-%m-%d" %}
 {% if page.sku == "APP-L-MA-001" %}
