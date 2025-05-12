@@ -9,10 +9,9 @@ usage: "<ul><li><strong>Cleanse your face</strong> – Wash with a gentle cleans
 choose_for: "<ul><li><strong>Quality</strong>: High</li><li><strong>Age</strong>: 12+</li><li><strong>Skin Types</strong>: Oily, acne-prone, and combination skin types.</li><li><strong>Effective For</strong>: Gently remove excess oil, dirt, and impurities while maintaining a balanced, matte complexion.</li></ul>"
 avoid_if: <ul><li>Dry Skin</li><li>Very Sensitive Skin</li><li>Children (under 12)</li></ul>
 product_line: Every cleanse you skip is a chance for oil and dirt to win. Stay consistent or risk undoing the progress you've made.
-brand_info: '<div class="row"><div class="col-12"><img loading="lazy" src="/images/cetaphil/cetaphil-cover.webp" alt="cetaphil cover" class="m-2" style="width: 100%" /></div></div>'
-title_img: /images/cetaphil/cetaphil-oily-skin-cleanser
+title_img: /images/cetaphil/oily-skin-cleanser
 title_img_alt: Cetaphil Oily Skin Cleanser
-secondary_img: /images/cetaphil/cetaphil-oily-skin-cleanser-ingredients-label
+secondary_img: /images/cetaphil/oily-skin-cleanser-ingredients-label
 secondary_img_alt: Cetaphil Oily Skin Cleanser Ingredients Label
 permalink: cetaphil/oily-skin-cleanser
 redirect_from: products/cetaphil-oily-skin-cleanser-in-nepal
@@ -28,10 +27,4 @@ dispenser: Pump bottle, Bottle
 variants: CET-L-COSC-008-60ML_60 ml_520
 variant_type: size
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.gb4C?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 60 ml
-        </a>
-    </p>
-</div>
+{% include buy.html description="60 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gb4C?cc" %}

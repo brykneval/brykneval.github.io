@@ -12,10 +12,9 @@ title: "Cetaphil Moisturizing Cream"
 meta_keywords: "Glycerin, Sunflower seed oil, Almond oil, Hydration, Protecting, Cruelty-free, Dermatologist tested, Hypoallergenic, Paraben-free, Dry, Sensitive, Normal"
 
 product_line: Don’t let your skin lose what it needs most—lock in moisture before it fades.
-brand_info: '<div class="row"><div class="col-12"><img loading="lazy" src="/images/cetaphil/cetaphil-cover.webp" alt="cetaphil cover" class="m-2" style="width: 100%" /></div></div>'
-title_img: /images/cetaphil/cetaphil-moisturizing-cream
+title_img: /images/cetaphil/moisturizing-cream
 title_img_alt: Cetaphil Moisturizing Cream
-secondary_img: /images/cetaphil/cetaphil-moisturizing-cream-ingredients-label
+secondary_img: /images/cetaphil/moisturizing-cream-ingredients-label
 secondary_img_alt: Cetaphil Moisturizing Cream Ingredients Label
 permalink: cetaphil/moisturizing-cream
 redirect_from: products/cetaphil-moisturising-cream-in-nepal
@@ -29,10 +28,4 @@ dispenser: Plastic Jar
 variants: CET-L-CMC-006-250GM_250 gm_2160
 variant_type: size
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.gjC2?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 250 gm
-        </a>
-    </p>
-</div>
+{% include buy.html description="250 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gjC2?cc" %}

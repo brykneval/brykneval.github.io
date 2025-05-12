@@ -1,0 +1,579 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include header.html %}
+  <link rel="preload" as="image" href="{{page.cover_img}}-640w.webp" type="image/webp" fetchpriority="high">
+</head>
+{% assign three_months_from_now = "now" | date: "%Y-%m-%d" | date: "%s" | plus: 7884000 | date: "%Y-%m-%d" %}
+{% if page.sku == "APP-L-MA-001" %}
+{% assign data_specs = site.data.laptop.macbook-air-m4.specs %}
+{% assign firstData = site.data.laptop.macbook-air-m4.specs[0] %}
+{% assign laptopScreens = site.data.laptop.macbook-air-m4.screen-sizes %}
+{% assign laptopColors = site.data.laptop.macbook-air-m4.colors %}
+{% elsif page.sku == "APP-L-MP-002" %}
+{% assign data_specs = site.data.laptop.macbook-pro-m4.specs %}
+{% assign firstData = site.data.laptop.macbook-pro-m4.specs[0] %}
+{% assign laptopScreens = site.data.laptop.macbook-pro-m4.screen-sizes %}
+{% assign laptopColors = site.data.laptop.macbook-pro-m4.colors %}
+{% endif %}
+
+
+<div data-pagefind-meta="image[src]" src="{{page.display_img}}-640w.webp">
+</div>
+
+<body id="body">
+  <section class="section">
+    <div class="container">
+      {% include breadcrumb.html %}
+      <div class="row">
+        <div class="col-md-12 align-self-center text-center text-md-left">
+          <div class="block">
+            <h1 class="mb-1">{{ page.title }}</h1>
+            <p class="mb-2">{{ page.product_line }}</p>
+            <p class="stars mb-4" style="--rating: {{ page.rating }};"
+              aria-label="Rating of this product is {{ page.rating }} out of 5."></p>
+            <span> | {{page.rating_from}}</span>
+          </div>
+        </div>
+        <div class="col-md-12 text-center mb-5 mb-md-0">
+          <img class="img-fluid rounded" srcset="{{page.cover_img}}-320w.webp 320w,
+            {{page.cover_img}}-640w.webp 640w,
+            {{page.cover_img}}-960w.webp 960w,
+            {{page.cover_img}}-1280w.webp 1280w,
+            {{page.cover_img}}-1440w.webp 1440w,
+            {{page.cover_img}}-1920w.webp 1920w" sizes="(max-width: 576px) 100vw,
+            (max-width: 768px) 100vw,
+            (max-width: 992px) 100vw,
+            (min-width: 993px) 100vw" src="{{page.cover_img}}-960w.webp" alt="{{page.cover_alt}}">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section">
+    <div class="container">
+      <div class="row">
+        <div class="font-weight-bold col-12 mb-4">
+          <h2>What's inside this article</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 align-self-center text-md-left">
+          <div class="content">
+            <h3 class=""><a class="link-title" href="#sectionDesign" title="On Design">On design</a></h3>
+            <h3 class=""><a class="link-title" href="#sectionSpecs" title="Specification">Tech specs</a>
+            </h3>
+            <h3 class=""><a class="link-title" href="#sectionColors" title="Colors">Colors</a></h3>
+            <h3 class=""><a class="link-title" href="#sectionSizes" title="Colors">Sizes</a></h3>
+            <h3 class=""><a class="link-title" href="#sectionMore" title="More on">More on</a></h3>
+            <h3 class=""><a class="link-title  ml-4" href="#sectionDisplay" title="Display">Display</a></h3>
+            <h3 class=""><a class="link-title  ml-4" href="#sectionPorts" title="Ports">Ports</a></h3>
+            <h3 class=""><a class="link-title ml-4" href="#sectionBattery" title="Battery life">Battery life</a></h3>
+
+            <h3 class=""><a class="link-title" href="#sectionBox" title="In the box">What you get in the box</a>
+            </h3>
+            <h3 class=""><a class="link-title" href="#sectionWho" title="Who is this for">Who is this for</a>
+            </h3>
+            <h3 class=""><a class="link-title" href="#sectionOlder" title="Who is this for">Should you go for older
+                versions</a>
+            </h3>
+            <h3 class=""><a class="link-title" href="#sectionBuy" title="Want to buy">Want to buy</a></h3>
+            <h3 class=""><a class="link-title" href="#sectionAbout" title="About {{page.brand}}">About
+                {{page.brand}}</a></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section" id="sectionDesign">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="heading pb-28">
+            <h2>On Design</h2>
+            <p>{{ page.design }}</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid rounded" srcset="{{page.design_img_1}}-320w.webp 320w,
+            {{page.design_img_1}}-640w.webp 640w,
+            {{page.design_img_1}}-960w.webp 960w,
+            {{page.design_img_1}}-1280w.webp 1280w,
+            {{page.design_img_1}}-1440w.webp 1440w,
+            {{page.design_img_1}}-1920w.webp 1920w" sizes="(max-width: 767px) 100vw,
+                        (min-width: 768px) calc(6/12 * 100vw)" src="{{page.design_img_1}}-960w.webp"
+            alt="{{page.design_alt_1}}" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section" id="sectionSpecs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="heading pb-28">
+            <h2>General Specification</h2>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <p class="mb-4">
+            <b>Display:</b> {{firstData.display}}<br />
+            <b>CPU:</b> {{firstData.cpu}}<br />
+            <b>Graphics:</b> {{firstData.graphics}}<br />
+            <b>Memory:</b> {{firstData.memory}}<br />
+            <b>Storage:</b> {{firstData.storage}}<br />
+            <b>Networking:</b> {{firstData.networking}}<br />
+            <b>Ports:</b> {{firstData.ports}}<br />
+            <b>Camera:</b> {{firstData.camera}}<br />
+            <b>Battery:</b> {{firstData.battery}}<br />
+            <b>Power Adapter:</b> {{firstData.power_adapter}}<br />
+            <b>Operating System:</b> {{firstData.operating_system}}<br />
+            <b>Dimensions (WxDxH):</b> {{firstData.dimensions}}<br />
+            <b>Weight:</b> {{firstData.weight}}<br />
+            <b>Year:</b> {{firstData.year}}<br />
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section" id="sectionColors">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="heading pb-28">
+            <h2>Colors</h2>
+          </div>
+        </div>
+        {% for item in laptopColors %}
+        <div class="col-md-3 text-center">
+          <img class="img-fluid rounded" srcset="{{item.img}}-240w.webp 240w,
+                      {{item.img}}-320w.webp 320w,
+                      {{item.img}}-640w.webp 640w,
+                      {{item.img}}-960w.webp 960w" sizes="(max-width: 767px) 100vw,
+                      (min-width: 768px) calc(3/12 * 100vw)" src="{{item.img}}-640w.webp" alt="{{item.alt}}"
+            loading="lazy">
+          <p>{{item.name}}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section" id="sectionSizes">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="heading pb-28">
+            <h2>Screen Sizes</h2>
+          </div>
+        </div>
+        {% for item in laptopScreens %}
+        <div class="col-md-4 mb-4">
+          <div class="box1 box">
+            <div class="box_content">
+              <div class="text">
+                <p class="box_title">{{page.title}} - {{item}} inch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section" id="sectionMore">
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-md-12">
+          <div class="heading pb-28">
+            <h2>More on</h2>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row mb-5" id="sectionDisplay">
+        <div class="col-md-6 text-center mb-5 mb-lg-0">
+          <img class="img-fluid rounded" srcset="{{page.display_img}}-320w.webp 320w,
+                        {{page.display_img}}-640w.webp 640w,
+                        {{page.display_img}}-960w.webp 960w,
+                        {{page.display_img}}-1280w.webp 1280w,
+                        {{page.display_img}}-1440w.webp 1440w,
+                        {{page.display_img}}-1920w.webp 1920w" sizes="(max-width: 767px) 100vw,
+                                    (min-width: 768px) calc(6/12 * 100vw)" src="{{page.display_img}}-960w.webp"
+            alt="{{page.display_alt}}" loading="lazy">
+
+        </div>
+        <div class="col-md-6 align-self-center text-center text-md-left">
+          <div class="content">
+            <h3 class="subheading">Display</h3>
+            <p>{{ page.display }}
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-3" id="sectionPorts">
+        <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
+          <div class="content">
+            <h3 class="subheading">Ports</h3>
+            <p>{{ page.ports }}
+            </p>
+
+          </div>
+        </div>
+        <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0">
+          <img class="img-fluid rounded" srcset="{{page.ports_img}}-320w.webp 320w,
+                        {{page.ports_img}}-640w.webp 640w,
+                        {{page.ports_img}}-960w.webp 960w,
+                        {{page.ports_img}}-1280w.webp 1280w,
+                        {{page.ports_img}}-1440w.webp 1440w,
+                        {{page.ports_img}}-1920w.webp 1920w" sizes="(max-width: 767px) 100vw,
+                                    (min-width: 768px) calc(6/12 * 100vw)" src="{{page.ports_img}}-960w.webp"
+            alt="{{page.ports_alt}}" loading="lazy">
+        </div>
+      </div>
+
+      <div class="row mb-40" id="sectionBattery">
+        <div class="col-md-12 align-self-center text-center text-md-left">
+          <div class="content">
+            <h3 class="subheading">Battery Life</h3>
+            <p>{{ page.battery }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section" id="sectionBox">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="heading pb-28">
+            <h2>What you get in the box</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-8 text-center text-md-left">
+          <div class="content">
+            <img src="{{page.inside_box_img}}-960w.webp" class="img-fluid rounded" srcset="{{page.inside_box_img}}-320w.webp 320w,
+            {{page.inside_box_img}}-640w.webp 640w,
+            {{page.inside_box_img}}-960w.webp 960w,
+            {{page.inside_box_img}}-1280w.webp 1280w,
+            {{page.inside_box_img}}-1440w.webp 1440w,
+            {{page.inside_box_img}}-1920w.webp 1920w" alt="{{page.inside_box_alt}}" sizes="(max-width: 767px) 100vw,
+                        (min-width: 768px) and (max-width: 991px) calc(8/12 * 100vw),
+                        (min-width: 992px) calc(8/12 * 992px)" loading="lazy">
+            <p>{{ page.inside_box }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section" id="sectionWho">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="heading pb-28">
+            <h2>Who is this for</h2>
+            <p>Choosing a laptop is about priorities—and finding the right balance. Some machines are designed for
+              demanding tasks like
+              editing or development, while others are perfect for everyday use like browsing, writing, or attending
+              meetings. You
+              don’t need the most powerful one—you need the one that matches your workflow. The real risk isn’t making a
+              choice—it’s
+              picking something that doesn’t align with what truly matters to you.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-12 align-self-center text-md-left">
+          <div class="content">
+            <p>{{ page.for }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-list section" id="sectionOlder">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="heading pb-28">
+            <h2>Should you go for older versions</h2>
+            <p>{{page.pre_value}}</p>
+            {{page.value_data}}
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-md-12 align-self-center text-md-left">
+          <div class="content">
+            <p>{{ page.post_value }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sectionBuy">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mb-3">
+          <h2>To Buy</h2>
+        </div>
+        <div class="col-md-4 mb-4">
+          {% for laptop in data_specs %}
+          {% assign descriptionData = laptop.display_size | append: " inch | "
+          | append: laptop.cpu | append: " | "
+          | append: laptop.graphics | append: " | "
+          | append: laptop.memory | append: " | "
+          | append: laptop.storage %}
+          {% include buy.html description=descriptionData title=laptop.title button_text="Buy from Daraz"
+          link=laptop.buy_link %}
+          {% endfor %}
+        </div>
+        <div class="col-lg-12 col-sm-6 mb-5 mb-lg-0 text-left">
+          <p>
+            <a href="https://wa.me/9704583400?text={{ site.url }}{{ page.url }}" class="link-title"
+              title="Any Questions?"><img loading="lazy" src="/images/icons/social/whatsapp-icon.webp"
+                alt="whatsapp icon to contact" class="m-2" style="width: 48px;">Any Questions?
+            </a>
+          </p>
+        </div>
+        <div class="col-lg-12 pt-4">
+          <p>
+            <i>Disclaimer: <b>When you buy through the links above, we may earn a commission — which helps support our
+                work.
+                Your support means a lot, thank you.</b> This price above for {{page.title}} is only for
+              representation purpose. Price may
+              differ on actual website.
+            </i>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sectionAbout">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 align-self-center text-center text-md-left">
+          <div class="content">
+            <h2 class="subheading mb-10">About {{page.brand}}</h2>
+            <p>
+              {{page.about_brand}}
+            </p>
+            <a href="/{{page.brand | downcase}}" class="btn btn-main" title="Browse All {{page.brand}} Products">Browse
+              All
+              {{page.brand}} Products</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<footer>
+  {% include footer.html %}
+
+  {{page.data}}
+</footer>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProductGroup",
+  "name": "{{page.title}}",
+  "description": "{{page.meta_description}}",
+  "@id": "#{{page.sku}}",
+  "productGroupID": "{{page.sku}}",
+  "image": "{{ site.url }}{{page.display_img}}-1920w.webp",
+  "brand": {
+    "@type": "Brand",
+    "name": "{{page.brand}}"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{page.rating}},
+    "ratingCount": {{page.rating_count}}
+  },
+  "sku": "{{page.sku}}",
+  "category": "{{page.meta_category}}",
+  "hasVariant": [
+    {% for laptop in data_specs %}
+    {
+      "@type": "Product",
+      "name": "{{laptop.title}}",
+      "sku": "{{laptop.sku}}",
+      "description": "{{page.meta_description}}",
+      "brand": {
+        "@type": "Brand",
+        "name": "{{page.brand}}"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": {{laptop.rating}},
+        "ratingCount": {{laptop.rating_count}}
+      },
+      "image": [
+        "{{ site.url }}{{page.display_img}}-1920w.webp",
+        "{{ site.url }}{{page.ports_img}}-1920w.webp",
+        "{{ site.url }}{{page.design_img_1}}-1920w.webp",
+        "{{ site.url }}{{page.inside_box_img}}-1920w.webp",
+        "{{ site.url }}{{page.cover_img}}-1920w.webp"
+      ],
+      "category": "Laptops",
+      "operatingSystem": "{{laptop.operating_system}}",
+      "processor": {
+        "@type": "ComputerProcessor",
+        "name": "{{laptop.cpu}}",
+        "processorArchitecture": "{{laptop.cpu_arch}}",
+        "numberOfCores": {{laptop.cpu_core}}
+      },
+      "memory": {
+        "@type": "QuantitativeValue",
+        "value": {{laptop.memory_size}},
+        "unitText": "GB"
+      },
+      "storage": [
+        {
+          "@type": "QuantitativeValue",
+          "value": {{laptop.storage_size}},
+          "unitText": "GB",
+          "storageType": "{{laptop.storage_type}}",
+          "storageInterface": "{{laptop.storage_interface}}"
+        }
+      ],
+      "display": {
+        "@type": "QuantitativeValue",
+        "value": {{laptop.display_size}},
+        "unitText": "inches"
+      },
+      "material": "{{laptop.material}}",
+      "batteryCapacity": {
+        "@type": "QuantitativeValue",
+        "value": {{laptop.battery_value}},
+        "unitText": "Wh"
+      },
+      "displayResolution": "{{laptop.display_resolution}}",
+      "graphics": {
+        "@type": "QuantitativeValue",
+        "value": {{laptop.graphics_memory}},
+        "unitText": "GB",
+        "graphicsType": "{{laptop.graphics_type}}",
+        "model": "{{laptop.graphics}}"
+      },
+      "connectivity": "{{laptop.networking}}",
+      "weight": {
+        "@type": "QuantitativeValue",
+        "value": {{laptop.weight_value}},
+        "unitText": "KG"
+      },
+      "color": {{ laptop.color | jsonify }},
+      "releaseDate": "{{laptop.year}}",
+      "isVariantOf": {
+        "@id": "#{{page.sku}}"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "{{ site.url }}{{ page.url }}",
+        "priceCurrency": "NPR",
+        "price": {{ laptop.price }},
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "priceValidUntil": "{{three_months_from_now}}",
+        "seller": {
+          "@type": "Organization",
+          "name": "Jhuppo"
+        }
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Camera",
+          "value": "{{laptop.camera}}"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Ports",
+          "value": "{{laptop.ports}}"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Touch",
+          "value": "{{laptop.touch}}"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Width",
+          "value": "{{laptop.width}} inches"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Depth",
+          "value": "{{laptop.depth}} inches"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Height",
+          "value": "{{laptop.height}} inches"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Power Adapter",
+          "value": "{{laptop.power_adapter}}"
+        }
+      ]
+    }
+    {% if forloop.last %}
+    {% else %},
+    {% endif %}
+    {% endfor %}
+  ]
+}  
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Laptops",
+      "item": "{{ site.url }}/laptops"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{page.brand}}",
+      "item": "{{ site.url }}/laptops/{{ page.brand | downcase }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "{{page.title}} | Nepal",
+      "item": "{{ site.url }}{{ page.url }}"
+    }
+  ]
+}
+</script>
+
+</html>

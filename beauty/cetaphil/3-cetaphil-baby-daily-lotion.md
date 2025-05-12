@@ -11,10 +11,9 @@ meta_description: "Cetaphil Baby Daily Lotion hydrates and soothes baby’s sens
 title: "Cetaphil Baby Daily Lotion"
 meta_keywords: "Glycerin, Sunflower seed oil, Almond oil, Hydration, Moisturizing, Cruelty-free, Dermatologist tested, Hypoallergenic, Dry, Sensitive, Normal"
 product_line: Don't let dryness steal your baby's comfort—keep their skin nourished all day.
-brand_info: '<div class="row"><div class="col-12"><img loading="lazy" src="/images/cetaphil/cetaphil-cover.webp" alt="cetaphil cover" class="m-2" style="width: 100%" /></div></div>'
-title_img: /images/cetaphil/cetaphil-baby-daily-lotion
+title_img: /images/cetaphil/baby-daily-lotion
 title_img_alt: Cetaphil Baby Daily Lotion
-secondary_img: /images/cetaphil/cetaphil-baby-daily-lotion-ingredients-label
+secondary_img: /images/cetaphil/baby-daily-lotion-ingredients-label
 secondary_img_alt: Cetaphil Baby Daily Lotion Ingredients Label
 permalink: cetaphil/baby-daily-lotion
 redirect_from: products/cetaphil-baby-daily-lotion-in-nepal
@@ -28,10 +27,4 @@ dispenser: Pump bottle, Bottle
 variants: CET-L-CBDL-003-400ML_400 ml_1300
 variant_type: size
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.gi9S?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 400 ml
-        </a>
-    </p>
-</div>
+{% include buy.html description="400 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gi9S?cc" %}

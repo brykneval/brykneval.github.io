@@ -721,3 +721,182 @@ textarea.form-control {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Content-1:Start */
+.box {
+  padding: 10px;
+  margin: 8px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  background: #FFFFFF;
+}
+
+.box_content {
+  margin: 15px 2px;
+}
+
+.image img {
+  height: auto;
+  width: 120px;
+  border-radius: 50%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+.level {
+  background-color: rgb(164, 189, 183, 0.5);
+  width: 50px;
+  padding: 3px;
+  border-radius: 5px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+
+  display: block;
+  margin: 0px auto 10px;
+}
+
+.name {
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.box_title {
+  margin-top: -2px;
+}
+
+.box_discription {
+  margin: 10px 30px 20px;
+}
+
+.icons {
+  margin: 0px 30px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons button {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  font-size: 1em;
+}
+
+.box_button {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.button {
+  margin: 20px 30px 0px;
+}
+
+.button .message {
+  background: #ededed;
+  border: 2px solid #000;
+}
+
+.button .connect {
+  background-color: #d8383b;
+  color: #ffffff;
+  border: none;
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+}
+
+button.connect:hover {
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+button.message:hover {
+  letter-spacing: 1px;
+  transition: 0.5s;
+  background: rgba(88, 164, 151, 0.5);
+}
+
+/* Content-1:End */
+
+/* Responsiveness:Start */
+@media screen and (max-width: 480px) {
+  .box {
+    width: 100vw;
+    border-radius: 0px;
+  }
+
+  .button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button button {
+    width: 250px;
+  }
+
+  button.connect {
+    margin-top: 10px;
+  }
+
+  .content2 {
+    padding: 0px 20px;
+  }
+
+  .content2 img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* Table */
+.responsive-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  min-width: 600px;
+  /* ensures table doesn't break */
+}
+
+th,
+td {
+  padding: 0.75em;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+}
+
+/* Stars */
+:root {
+  --star-size: 24px;
+  --star-color: #F5F5F4;
+  --star-background: #d8383b;
+}
+
+.stars {
+  --percent: calc(var(--rating) / 5 * 100%);
+  display: inline-block;
+  font-size: var(--star-size);
+  font-family: Times;
+  line-height: 1;
+}
+
+.stars::before {
+  content: "★★★★★";
+  letter-spacing: 3px;
+  background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -14,7 +14,9 @@ layout: compress
 <body id="body">
   <section class="section">
     <div class="container">
+      {% include breadcrumb.html %}
       <div class="row">
+
         <div class="col-md-6 align-self-center text-center text-md-left">
           <div class="block">
             <h1 class="mb-4">{{ page.title }}</h1>
@@ -29,7 +31,8 @@ layout: compress
           <img class="img-fluid" src="{{page.title_img}}-640w.webp" srcset="{{page.title_img}}-320w.webp 320w,
                        {{page.title_img}}-640w.webp 640w,
                        {{page.title_img}}-960w.webp 960w,
-                       {{page.title_img}}-1280w.webp 1280w" alt="{{page.title_img_alt}}">
+                       {{page.title_img}}-1280w.webp 1280w" sizes="(max-width: 767px) 100vw,
+                       (min-width: 768px) calc(6/12 * 100vw)" alt="{{page.title_img_alt}}">
         </div>
       </div>
     </div>
@@ -122,7 +125,8 @@ layout: compress
           <img class="img-fluid" loading="lazy" src="{{page.secondary_img}}-640w.webp" srcset="{{page.secondary_img}}-320w.webp 320w,
                                  {{page.secondary_img}}-640w.webp 640w,
                                  {{page.secondary_img}}-960w.webp 960w,
-                                 {{page.secondary_img}}-1280w.webp 1280w" alt="{{page.secondary_img_alt}}">
+                                 {{page.secondary_img}}-1280w.webp 1280w" sizes="(max-width: 767px) 100vw,
+                                 (min-width: 768px) calc(6/12 * 100vw)" alt="{{page.secondary_img_alt}}">
         </div>
       </div>
     </div>
@@ -182,40 +186,37 @@ layout: compress
 
   <section class="section" id="sectionBuy">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12">
-          <div class="heading pb-28">
-            <h2>To buy</h2>
-            <p>This price for {{page.title}} is only for
-              representation
-              purpose. Price
-              may differ on actual website.</p>
-          </div>
-          {{ page.content }}
-          <div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-            <p>
-              <a href="https://wa.me/9704583400?text={{ site.url }}{{ page.url }}" class="link-title"
-                title="Any Questions?"><img loading="lazy" src="/images/icons/social/whatsapp-icon.webp"
-                  alt="whatsapp icon to contact" class="m-2" style="width: 48px;">Any Questions?
-              </a>
-            </p>
-          </div>
-          <div class="pt-4">
-            <p><i>Disclaimer: <b>When you buy through links above, you are supporting our work and your support means a
-                  lot,
-                  thank you.</b> The information provided about
-                the
-                product is for general informational
-                purposes
-                only and
-                is not intended as medical advice or to diagnose, treat, cure, or prevent any skin conditions or
-                illnesses.
-                Individual
-                results may vary depending on skin type, usage, and other factors.
-              </i>
-            </p>
-          </div>
-        </div>
+      <div class="col-md-12 mb-3">
+        <h2>To buy</h2>
+      </div>
+      <div class="col-md-4 mb-4">
+        {{ content }}
+      </div>
+      <div class="col-lg-12 col-sm-6 mb-5 mb-lg-0 text-left">
+        <p>
+          <a href="https://wa.me/9704583400?text={{ site.url }}{{ page.url }}" class="link-title"
+            title="Any Questions?"><img loading="lazy" src="/images/icons/social/whatsapp-icon.webp"
+              alt="whatsapp icon to contact" class="m-2" style="width: 48px;">Any Questions?
+          </a>
+        </p>
+      </div>
+      <div class="col-lg-12 pt-4">
+        <p>
+          <i>Disclaimer: <b>When you buy through the links above, we may earn a commission — which helps support our
+              work.
+              Your support means a lot, thank you.</b> This price above for {{page.title}} is only for
+            representation purpose. Price may
+            differ on actual website. The information provided about
+            the
+            product is for general informational
+            purposes
+            only and
+            is not intended as medical advice or to diagnose, treat, cure, or prevent any skin conditions or
+            illnesses.
+            Individual
+            results may vary depending on skin type, usage, and other factors.
+          </i>
+        </p>
       </div>
     </div>
   </section>
@@ -251,7 +252,7 @@ layout: compress
   "productGroupID": "{{page.sku}}",
   "name": "{{page.title}}",
   "description": "{{page.meta_description}}",
-  "image": "{{ site.url }}{{page.title_img}}.webp",
+  "image": "{{ site.url }}{{page.title_img}}-1280w.webp",
   "brand": {
     "@type": "Brand",
     "name": "{{page.brand}}"
@@ -268,7 +269,7 @@ layout: compress
         "name": "{{page.title}} | {{splittedItems[1]}}",
         "sku": "{{splittedItems[0]}}",
         "{{page.variant_type}}": "{{splittedItems[1]}}",
-        "image": "{{ site.url }}{{page.title_img}}.webp",
+        "image": "{{ site.url }}{{page.title_img}}-1280w.webp",
         "description": "{{page.meta_description}}",
         "isVariantOf": { "@id": "#{{page.sku}}" },
         "offers":
@@ -303,22 +304,22 @@ layout: compress
     {
       "@type": "PropertyValue",
       "name": "Ingredients",
-      "value": "{{page.ingredients}}"
+      "value": "{{page.ingredients | strip_html}}"
     },
     {
       "@type": "PropertyValue",
       "name": "Ingredients Summary",
-      "value": "{{page.ingredients_summary}}"
+      "value": "{{page.ingredients_summary | strip_html}}"
     },
     {
       "@type": "PropertyValue",
       "name": "Quality",
-      "value": "{{page.ingredients_quality}}"
+      "value": "{{page.ingredients_quality | strip_html}}"
     },
     {
       "@type": "PropertyValue",
       "name": "Usage",
-      "value": "{{page.usage}}"
+      "value": "{{page.usage | strip_html}}"
     }
   ]
 }
@@ -338,7 +339,7 @@ layout: compress
       "@type": "ListItem",
       "position": 2,
       "name": "Products",
-      "item": "{{ site.url }}/{{ page.brand }}"
+      "item": "{{ site.url }}/{{ page.brand | downcase }}"
     },
     {
       "@type": "ListItem",

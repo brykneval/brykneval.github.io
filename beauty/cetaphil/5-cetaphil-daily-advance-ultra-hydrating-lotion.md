@@ -11,10 +11,9 @@ meta_description: "Cetaphil Daily Advance Ultra Hydrating Lotion provides long-l
 title: "Cetaphil Daily Advance Ultra Hydrating Lotion"
 
 product_line: Miss a day, and your skin starts to lose the comfort, softness, and protection it depends on.
-brand_info: '<div class="row"><div class="col-12"><img loading="lazy" src="/images/cetaphil/cetaphil-cover.webp" alt="cetaphil cover" class="m-2" style="width: 100%" /></div></div>'
-title_img: /images/cetaphil/cetaphil-daily-advance-ultra-hydrating-lotion
+title_img: /images/cetaphil/daily-advance-ultra-hydrating-lotion
 title_img_alt: Cetaphil Daily Advance Ultra Hydrating Lotion
-secondary_img: /images/cetaphil/cetaphil-daily-advance-ultra-hydrating-lotion-ingredients-label
+secondary_img: /images/cetaphil/daily-advance-ultra-hydrating-lotion-ingredients-label
 secondary_img_alt: Cetaphil Daily Advance Ultra Hydrating Lotion Ingredients Label
 permalink: cetaphil/daily-advance-ultra-hydrating-lotion
 redirect_from: products/cetaphil-daily-advance-ultra-hydrating-lotion-in-nepal
@@ -28,10 +27,4 @@ dispenser: Plastic Jar
 variants: CET-L-CDAUHL-005-100GM_100 gm_1039
 variant_type: size
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.ggHI?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 100 gm
-        </a>
-    </p>
-</div>
+{% include buy.html description="100 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.ggHI?cc" %}

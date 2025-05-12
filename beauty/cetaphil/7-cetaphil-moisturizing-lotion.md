@@ -4,9 +4,9 @@ permalink: cetaphil/moisturizing-lotion
 redirect_from: products/cetaphil-moisturizing-lotion-in-nepal
 meta_description: Buy Cetaphil Moisturizing Lotion in Nepal. Gentle, non-greasy hydration for dry and sensitive skin. Fast-absorbing, fragrance-free formula for everyday use.
 title_description: Cetaphil Moisturizing Lotion is a lightweight, non-greasy moisturizer designed for dry and sensitive skin, providing long-lasting hydration without clogging pores. Formulated with glycerin, macadamia nut oil, and vitamin E, it helps strengthen the skin barrier, lock in moisture, and soothe irritation. Dermatologist-tested and fragrance-free, this fast-absorbing lotion is ideal for daily use on both the face and body, making it a popular choice for those with eczema, rosacea, or dehydrated skin. Trusted by skincare professionals worldwide, Cetaphil Moisturizing Lotion delivers intense hydration and nourishment, keeping skin soft, smooth, and healthy all day.
-title_img: /images/cetaphil/cetaphil-moisturizing-lotion
+title_img: /images/cetaphil/moisturizing-lotion
 title_img_alt: Cetaphil Moisturizing Lotion
-secondary_img: /images/cetaphil/cetaphil-moisturizing-lotion-hydration
+secondary_img: /images/cetaphil/moisturizing-lotion-hydration
 secondary_img_alt: Cetaphil Moisturizing Lotion Hydration
 ingredients: Aqua, Glycerin, Isopropyl Palmitate, Cetearyl Alcohol, Ceteareth-20, Panthenol, Niacinamide, Tocopheryl Acetate, Dimethicone, Persea Gratissima Oil, Helianthus Annuus Seed Oil, Pantolactone, Glyceryl Stearate, Sodium Benzoate, Benzyl Alcohol, Citric Acid.
 ingredients_summary: <strong>Glycerin</strong> hydrates, while <strong>Isopropyl Palmitate</strong> and <strong>Dimethicone</strong> soften skin. <strong>Niacinamide</strong> and <strong>Panthenol</strong> strengthen the barrier, reducing irritation. <strong>Avocado Oil</strong> and <strong>Sunflower Seed Oil</strong> nourish, and <strong>Tocopheryl Acetate (Vitamin E)</strong> provides antioxidant protection. <strong>Cetearyl Alcohol</strong> and <strong>Ceteareth-20</strong> ensure smooth absorption, while <strong>Sodium Benzoate</strong> and <strong>Benzyl Alcohol</strong> preserve the formula. Designed for <strong>long-lasting hydration</strong> and <strong>sensitive skin support</strong>.
@@ -18,7 +18,6 @@ usage: "<ul><li><strong>Apply to clean skin</strong>: After cleansing, gently pa
 low_price: 1000
 choose_for: "<ul><li><strong>Quality</strong>: High</li><li><strong>Age</strong>: Adults (18+).</li><li><strong>Skin Types</strong>: Sensitive and dry skin.</li><li><strong>Effective For</strong>: long-lasting hydration.</li></ul>"
 avoid_if: "<ul><li>Very oily skin</li><li>Extremely sensitive skin to preservatives like Benzyl Alcohol and Sodium Benzoate</li><li>People with severe acne.</li></ul>"
-brand_info: '<div class="row"><div class="col-12"><img loading="lazy" src="/images/cetaphil/cetaphil-cover.webp" alt="cetaphil cover" class="m-2" style="width: 100%" /></div></div>'
 meta_category: "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer"
 gpc: 2592
 sku: CET-L-CML-007
@@ -28,10 +27,4 @@ dispenser: Pump bottle, Bottle
 variants: CET-L-CML-007-400ML_400 ml_1300
 variant_type: size
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.gi9S?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 400 ml
-        </a>
-    </p>
-</div>
+{% include buy.html description="4000 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gi9S?cc" %}

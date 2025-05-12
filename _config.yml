@@ -64,6 +64,7 @@ defaults:
       layout: "beauty"
       about_brand: "Cetaphil is US brand. Cetaphil is a dermatologically recommended skincare brand developed by Galderma in 1947, originally formulated for sensitive skin. Known for its gentle yet effective cleansers, moisturizers, and sunscreens, Cetaphil products are widely used to hydrate, cleanse, and protect the skin barrier. Its flagship product, Cetaphil Gentle Skin Cleanser, remains a top choice for individuals with dry, sensitive, or acne-prone skin. Free from harsh ingredients, Cetaphil formulations focus on mild surfactants, hydrating agents like glycerin, and soothing components such as niacinamide and ceramides. Available in over 70 countries, the brand continues to be trusted by dermatologists and consumers worldwide."
       brand: "Cetaphil"
+      brand_info: '<div class="row"><div class="col-12"><img loading="lazy" src="/images/cetaphil/cover.webp" alt="cetaphil cover" class="m-2" style="width: 100%" /></div></div>'
   -
     scope:
       path: "beauty/minimalist"
@@ -72,6 +73,15 @@ defaults:
       layout: "beauty"
       about_brand: "Minimalist is a science-driven Indian skincare brand known for its transparent and no-nonsense approach to beauty. It focuses on clean, effective formulations using clinically proven ingredients like niacinamide, vitamin C, hyaluronic acid, and retinol to target various skin concerns such as acne, pigmentation, and aging. Minimalist stands out for its ingredient transparency, listing key components clearly and educating consumers on their benefits. All products are dermatologist-tested, fragrance-free, and non-comedogenic, making them suitable for different skin types. Committed to safety and sustainability, the brand ensures its products are cruelty-free, non-toxic, and globally compliant, offering affordable, high-performance skincare solutions."
       brand: "Minimalist"
+      brand_info: <div class="row"><div class="col-12"><div class="heading pb-28"><h2>What minimalist stands for</h2></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Transparency</h3><p>Full disclosure of ingredients used & their concentration</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Efficacy</h3><p>Formulations developed in our in-house laboratories</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Affordable</h3><p>Skincare, accessible to all</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Only the best</h3><p>Ingredients sourced from across the world</p></div></div></div>
+  -
+    scope:
+      path: "laptop/apple"
+      type: "pages"
+    values:
+      layout: "laptop"
+      about_brand: "Apple Inc. is a leading global technology company, renowned for its innovation in personal computing, mobile devices, wearables, and digital services. Founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne, Apple revolutionized the tech industry with products like the Mac, iPhone, iPad, Apple Watch, and AirPods. Known for their sleek design, intuitive user interfaces, and seamless integration, Apple’s devices run on its custom-built operating systems, including iOS, macOS, and watchOS, ensuring a cohesive experience across all its products. The company has also expanded into digital services with offerings like Apple Music, Apple TV+, and iCloud, cementing its place as a major player in both hardware and software innovation. Apple's focus on privacy, security, and user experience has earned it a loyal customer base worldwide, making it one of the most valuable and influential tech companies globally."
+      brand: "Apple"
 
 
 # jekyll-sitemap:

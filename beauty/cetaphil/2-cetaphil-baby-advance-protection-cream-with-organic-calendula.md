@@ -12,10 +12,9 @@ title: "Cetaphil Baby Advance Protection Cream"
 meta_keywords: "Glycerin, Calendula, Shea butter, Sunflower seed oil, Hydration, Protecting, Cruelty-free, Dermatologist tested, Hypoallergenic, Dry, Sensitive, Normal"
 
 product_line: Don’t wait for rashes to appear—shield your baby’s skin before it's too late.
-brand_info: '<div class="row"><div class="col-12"><img loading="lazy" src="/images/cetaphil/cetaphil-cover.webp" alt="cetaphil cover" class="m-2" style="width: 100%" /></div></div>'
-title_img: /images/cetaphil/cetaphil-baby-advance-protection-cream
+title_img: /images/cetaphil/baby-advance-protection-cream
 title_img_alt: Cetaphil Baby Advance Protection Cream
-secondary_img: /images/cetaphil/cetaphil-baby-advance-protection-cream-ingredients-label
+secondary_img: /images/cetaphil/baby-advance-protection-cream-ingredients-label
 secondary_img_alt: Cetaphil Baby Advance Protection Cream Ingredients Label
 permalink: cetaphil/baby-advance-protection-cream
 redirect_from: products/cetaphil-baby-advance-protection-cream-with-organic-calendula-in-nepal
@@ -29,10 +28,4 @@ dispenser: Plastic bottle
 variants: CET-L-CBAPC-002-85ML_85 ml_1100
 variant_type: size
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.gjFq?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 85 gm
-        </a>
-    </p>
-</div>
+{% include buy.html description="85 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gjFq?cc" %}

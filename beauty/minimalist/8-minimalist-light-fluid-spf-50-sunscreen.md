@@ -10,7 +10,6 @@ usage: "<ul><li><strong>Daily Sun Protection</strong>: Apply 20 minutes before s
 meta_description: "Minimalist Light Fluid SPF 50 Sunscreen offers broad-spectrum UV protection with a matte finish. Lightweight, non-comedogenic, and perfect for all skin types."
 title: "Minimalist Light Fluid SPF 50 Sunscreen"
 
-brand_info: <div class="row"><div class="col-12"><div class="heading pb-28"><h2>What minimalist stands for</h2></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Transparency</h3><p>Full disclosure of ingredients used & their concentration</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Efficacy</h3><p>Formulations developed in our in-house laboratories</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Affordable</h3><p>Skincare, accessible to all</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Only the best</h3><p>Ingredients sourced from across the world</p></div></div></div>
 meta_category: "Health & Beauty > Personal Care > Cosmetics > Skin Care > Sunscreen"
 skin_type: "Oily"
 sku: MIN-L-MLFSS-008
@@ -22,16 +21,10 @@ variant_type: size
 permalink: minimalist/light-fluid-spf-sunscreen
 redirect_from: products/minimalist-light-fluid-spf-50-sunscreen-in-nepal
 title_description: Minimalist Light Fluid SPF 50 Sunscreen is a broad-spectrum, lightweight sunscreen that protects against UVA and UVB rays while leaving no white cast. Enriched with advanced UV filters like Uvinul A Plus and Tinosorb S, it offers effective sun protection. The non-comedogenic, fragrance-free, and water-based formula ensures a matte finish, making it ideal for daily use on all skin types, especially oily and acne-prone skin.
-title_img: /images/minimalist/minimalist-light-fluid-spf-sunscreen
+title_img: /images/minimalist/light-fluid-spf-sunscreen
 title_img_alt: Minimalist Light Fluid SPF 50 Sunscreen
-secondary_img: /images/minimalist/minimalist-light-fluid-spf-sunscreen-uv-filters
+secondary_img: /images/minimalist/light-fluid-spf-sunscreen-uv-filters
 secondary_img_alt: Minimalist Light Fluid SPF 50 Sunscreen UV Filter
 product_line: One skipped day in the sun can mean years of spots and damage—shield your skin while you can.
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.goO9?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 50 ml
-        </a>
-    </p>
-</div>
+{% include buy.html description="50 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.goO9?cc" %}

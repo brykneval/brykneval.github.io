@@ -5,7 +5,7 @@ layout: compress
 <html lang="en">
 
 <head>
-  {% include header.html %}
+  {% include header-brand.html %}
 </head>
 {% if page.title == "Cetaphil" %}
 {% assign data = site.data.beauty.cetaphil-list %}
@@ -19,26 +19,24 @@ layout: compress
 <body id="body">
   <section class="section gallery">
     <div class="container">
+      {% include breadcrumb.html %}
       <div class="row">
         <div class="col-12 mb-5">
           <h1 class="mb-4">Products by {{page.title}}</h1>
           <p>{{page.description}}</p>
         </div>
         {% for item in data %}
-        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="col-md-3 col-sm-6 mb-4">
           <div class="block">
-            <img class="img-fluid" loading="lazy"
-              src="{{ site.url }}/images/{{page.title | downcase}}/{{page.title | downcase}}-{{item.dash}}-thumb-200w.webp"
-              srcset="{{page.title_img}}-100w.webp 100w,
-                                     {{ site.url }}/images/{{page.title | downcase}}/{{page.title | downcase}}-{{item.dash}}-thumb-200w.webp 200w,
-                                     {{ site.url }}/images/{{page.title | downcase}}/{{page.title | downcase}}-{{item.dash}}-thumb-300w.webp 300w,
-                                     {{ site.url }}/images/{{page.title | downcase}}/{{page.title | downcase}}-{{item.dash}}-thumb-400w.webp 400w"
-              alt="{{item.title}}">
+            <img class="img-fluid" loading="lazy" src="/images/{{item.thumb}}-thumb-200w.webp" srcset="/images/{{item.thumb}}-100w.webp 100w,
+                                     /images/{{item.thumb}}-thumb-200w.webp 200w,
+                                     /images/{{item.thumb}}-thumb-300w.webp 300w,
+                                     /images/{{item.thumb}}-thumb-400w.webp 400w" alt="{{item.title}}" sizes="(max-width: 767px) 100vw,
+                                     (min-width: 768px) calc(3/12 * 100vw)">
           </div>
           <div class="product-info">
-            <p class="mb-2"><a href="{{ site.url }}/{{page.title | downcase}}/{{ item.dash }}"
-                class="link-title">{{item.title}}</a>
-            </p>
+            <h2 class="mb-2" style="font-size: 16px;"><a href="/{{ item.url }}" class="link-title">{{item.title}}</a>
+            </h2>
           </div>
         </div>
         {% endfor %}
@@ -65,8 +63,8 @@ layout: compress
     "item": {
       "@type": "Product",
       "name": "{{item.title}}",
-      "image": "{{ site.url }}/images/{{page.brand}}/{{item.dash}}.webp",
-      "url": "{{ site.url }}/{{page.brand}}/{{ item.dash }}",
+      "image": "{{site.url}}/images/{{item.thumb}}-1280w.webp",
+      "url": "{{site.url}}/{{ item.url }}",
       "brand": {
           "@type": "Brand",
           "name": "{{page.title}}"

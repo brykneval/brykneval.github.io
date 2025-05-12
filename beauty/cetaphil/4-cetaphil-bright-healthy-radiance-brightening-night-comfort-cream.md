@@ -9,10 +9,9 @@ usage: <ul><li><strong>Cleanse your face</strong> – Wash with a gentle cleanse
 choose_for: "<ul><li><strong>Quality</strong>: High</li><li><strong>Age</strong>: 18+</li><li><strong>Skin Types</strong>: Normal, dry, combination, and sensitive skin.</li><li><strong>Effective For</strong>: brighten, even out skin tone, hydration overnight.</li></ul>"
 avoid_if: <ul><li>Very oily skin</li><li>Active acne</li></ul>
 product_line: Every night without it is a night your skin misses the chance to heal, brighten, and renew.
-brand_info: '<div class="row"><div class="col-12"><img loading="lazy" src="/images/cetaphil/cetaphil-cover.webp" alt="cetaphil cover" class="m-2" style="width: 100%" /></div></div>'
-title_img: /images/cetaphil/cetaphil-bright-healthy-radiance-brightening-night-comfort-cream
+title_img: /images/cetaphil/bright-healthy-radiance-brightening-night-comfort-cream
 title_img_alt: Cetaphil BHR Brightening Night Comfort Cream
-secondary_img: /images/cetaphil/cetaphil-bright-healthy-radiance-brightening-night-comfort-cream-ingredients-label
+secondary_img: /images/cetaphil/bright-healthy-radiance-brightening-night-comfort-cream-ingredients-label
 secondary_img_alt: Cetaphil BHR Brightening Night Comfort Cream Ingredients Label
 permalink: cetaphil/bright-healthy-radiance-brightening-night-comfort-cream
 redirect_from: products/cetaphil-bright-healthy-radiance-brightening-night-comfort-cream-in-nepal
@@ -27,10 +26,4 @@ dispenser: Plastic Jar
 variants: CET-L-CBBNCC-004-50GM_50 gm_1650
 variant_type: size
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.gbbD?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 50 gm
-        </a>
-    </p>
-</div>
+{% include buy.html description="50 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gbbD?cc" %}

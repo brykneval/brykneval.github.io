@@ -10,7 +10,6 @@ usage: "<ul><li>Apply a pea-sized amount to cleansed face and neck.</li><li>Use 
 meta_description: "Minimalist Vitamin B5 10% Moisturizer for deep hydration, soothing redness, and strengthening skin barrier. Lightweight, non-greasy formula suitable for all skin types."
 title: "Minimalist Vitamin B5 10% Moisturizer"
 
-brand_info: <div class="row"><div class="col-12"><div class="heading pb-28"><h2>What minimalist stands for</h2></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Transparency</h3><p>Full disclosure of ingredients used & their concentration</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Efficacy</h3><p>Formulations developed in our in-house laboratories</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Affordable</h3><p>Skincare, accessible to all</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Only the best</h3><p>Ingredients sourced from across the world</p></div></div></div>
 meta_category: "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer"
 skin_type: "Oily, Combination"
 sku: MIN-L-MVBM-006
@@ -22,16 +21,10 @@ variant_type: size
 permalink: minimalist/vitamin-b5-moisturizer
 redirect_from: products/minimalist-vitamin-b5-10-moisturizer-in-nepal
 title_description: This Vitamin B5 10% Moisturizer is a lightweight yet deeply hydrating formula that soothes, repairs, and strengthens the skin barrier. Enriched with Vitamin B5 (Panthenol), it helps retain moisture, reduces redness, and promotes skin healing. Ideal for daily use, it keeps skin soft, supple, and healthy without feeling greasy or heavy.
-title_img: /images/minimalist/minimalist-vitamin-b5-moisturizer
+title_img: /images/minimalist/vitamin-b5-moisturizer
 title_img_alt: Minimalist Vitamin B5 10% Moisturizer
-secondary_img: /images/minimalist/minimalist-vitamin-b5-moisturizer-application-on-girl
+secondary_img: /images/minimalist/vitamin-b5-moisturizer-application-on-girl
 secondary_img_alt: Minimalist Vitamin B5 10% Moisturizer application on girl
 product_line: Skipping deep hydration today could cost you calm, balanced skin tomorrow.
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.gHeh?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 50 gm
-        </a>
-    </p>
-</div>
+{% include buy.html description="50 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gHeh?cc" %}

@@ -1,0 +1,65 @@
+{
+    "colors": [
+        {
+            "img": "/images/apple/macbook-pro-m4/silver",
+            "name": "Silver",
+            "alt": "Macbook Pro M4 Silver Color"
+        },
+        {
+            "img": "/images/apple/macbook-pro-m4/space-black",
+            "name": "Space Black",
+            "alt": "Macbook Pro M4 Space Black Color"
+        }
+    ],
+    "specs": [
+        {
+            "title": "Macbook Pro M4 Pro",
+            "sku": "APP-L-MP-M4-002",
+            "cpu": "12 Core Apple M4 Pro CPU",
+            "cpu_core": 12,
+            "cpu_arch": "ARM",
+            "graphics": "16-Core GPU",
+            "graphics_memory": 24,
+            "graphics_type": "Integrated",
+            "memory": "24GB Unified Memory RAM",
+            "memory_size": 24,
+            "storage": "512GB SSD NVMe PCIe",
+            "storage_size": 512,
+            "storage_type": "SSD",
+            "storage_interface": "NVMe PCIe",
+            "display": "14-inch Liquid Retina XDR, 3024x1964, ProMotion 120Hz, True Tone",
+            "display_size": 14.2,
+            "display_resolution": "3024x1964",
+            "networking": "Wi-Fi 6E, Bluetooth 5.3",
+            "ports": "3x Thunderbolt 4 (USB Type-C), HDMI, SDXC card slot, 3.5 mm headphone jack, MagSafe 3",
+            "camera": "1080p FaceTime HD camera",
+            "battery": "70 Whr",
+            "battery_value": "70",
+            "power_adapter": "70W USB-C",
+            "operating_system": "macOS Sequoia 15.3",
+            "dimensions": "12.3 x 8.7 x 0.61 inches",
+            "height": 0.61,
+            "width": 12.3,
+            "depth": 8.7,
+            "weight": "1.6 KG (3.5 pounds)",
+            "weight_value": 1.6,
+            "touch": "Non-touch Display",
+            "touch_value": false,
+            "color": [
+                "Space Black",
+                "Silver"
+            ],
+            "material": "Aluminum",
+            "year": "2024",
+            "price": "339000",
+            "price_us": "1999",
+            "rating": 4.8,
+            "rating_count": 714,
+            "buy_link": "https://s.daraz.com.np/s.89FP?cc"
+        }
+    ],
+    "screen-sizes": [
+        "14",
+        "16"
+    ]
+}

@@ -10,7 +10,6 @@ usage: "<ul><li>Apply generously on clean skin after a shower.</li><li>Focus on 
 meta_description: "Minimalist Niacinamide 5% Body Lotion hydrates, reduces blemishes, and improves skin tone for smooth, healthy skin. Suitable for all skin types."
 title: "Minimalist Niacinamide 5% Body Lotion"
 
-brand_info: <div class="row"><div class="col-12"><div class="heading pb-28"><h2>What minimalist stands for</h2></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Transparency</h3><p>Full disclosure of ingredients used & their concentration</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Efficacy</h3><p>Formulations developed in our in-house laboratories</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Affordable</h3><p>Skincare, accessible to all</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Only the best</h3><p>Ingredients sourced from across the world</p></div></div></div>
 meta_category: "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer"
 skin_type: "Dry, Sensitive, Normal, Oily, Combination"
 sku: MIN-L-MNBL-004
@@ -22,16 +21,10 @@ variant_type: size
 permalink: minimalist/niacinamide-body-lotion
 redirect_from: products/minimalist-niacinamide-5-body-lotion-in-nepal
 title_description: Minimalist Niacinamide 5% Body Lotion is a lightweight, fast-absorbing formula that hydrates, evens skin tone, and reduces body blemishes. Enriched with 5% Niacinamide, it strengthens the skin barrier, minimizes redness, and promotes smooth, healthy skin. Ideal for daily use.
-title_img: /images/minimalist/minimalist-niacinamide-body-lotion
+title_img: /images/minimalist/niacinamide-body-lotion
 title_img_alt: Minimalist Niacinamide 5% Body Lotion
-secondary_img: /images/minimalist/minimalist-niacinamide-body-lotion-ingredients-label
+secondary_img: /images/minimalist/niacinamide-body-lotion-ingredients-label
 secondary_img_alt: Minimalist Niacinamide 5% Body Lotion Ingredients Label
 product_line: Don’t let dark spots and rough skin settle in—defend your skin before damage begins.
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.gBw4?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 180 gm
-        </a>
-    </p>
-</div>
+{% include buy.html description="180 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gBw4?cc" %}

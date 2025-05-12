@@ -10,7 +10,6 @@ usage: "<ul><li>Apply a pea-sized amount on a clean face.</li><li>Use twice dail
 meta_description: "Minimalist Marula Oil 5% Face Moisturizer hydrates, improves skin texture, and boosts elasticity, leaving skin soft and radiant. Suitable for all skin types."
 title: "Minimalist Marula Oil 5% Face Moisturizer"
 
-brand_info: <div class="row"><div class="col-12"><div class="heading pb-28"><h2>What minimalist stands for</h2></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Transparency</h3><p>Full disclosure of ingredients used & their concentration</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Efficacy</h3><p>Formulations developed in our in-house laboratories</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Affordable</h3><p>Skincare, accessible to all</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Only the best</h3><p>Ingredients sourced from across the world</p></div></div></div>
 meta_category: "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer"
 skin_type: "Dry, Sensitive, Normal"
 sku: MIN-L-MMOFM-005
@@ -22,16 +21,10 @@ variant_type: size
 permalink: minimalist/marula-oil-face-moisturizer
 redirect_from: products/minimalist-marula-oil-5-face-moisturizer-in-nepal
 title_description: Minimalist Marula Oil 5% Face Moisturizer's lightweight, non-greasy moisturizer is infused with 5% Marula Oil, providing intense hydration, improving skin texture, and restoring the skin barrier. Rich in antioxidants, it helps reduce dryness, promotes elasticity, and leaves your skin soft, supple, and radiant.
-title_img: /images/minimalist/minimalist-marula-oil-face-moisturizer
+title_img: /images/minimalist/marula-oil-face-moisturizer
 title_img_alt: Minimalist Marula Oil 5% Face Moisturizer
-secondary_img: /images/minimalist/minimalist-marula-oil-face-moisturizer-ingredients-label
+secondary_img: /images/minimalist/marula-oil-face-moisturizer-ingredients-label
 secondary_img_alt: Minimalist Marula Oil 5% Face Moisturizer Ingredients Label
 product_line: Missing hydration now can mean fine lines sooner—protect your glow while you can.
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.gv3N?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 50 gm
-        </a>
-    </p>
-</div>
+{% include buy.html description="50 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gv3N?cc" %}

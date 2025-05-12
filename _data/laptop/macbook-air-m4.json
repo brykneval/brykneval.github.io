@@ -1,0 +1,66 @@
+{
+    "colors": [
+        {
+            "img": "/images/apple/macbook-air-m4-sky-blue",
+            "name": "Sky Blue",
+            "alt": "macbook air m4 sky blue"
+        },
+        {
+            "img": "/images/apple/macbook-air-m4-silver",
+            "name": "Silver",
+            "alt": "macbook  air m4 silver"
+        },
+        {
+            "img": "/images/apple/macbook-air-m4-starlight",
+            "name": "Starlight",
+            "alt": "macbook air m4  starlight"
+        },
+        {
+            "img": "/images/apple/macbook-air-m4-midnight",
+            "name": "Midnight",
+            "alt": "macbook air m4 midnight"
+        }
+    ],
+    "specs": [
+        {
+            "title": "Macbook Air M4 - 1",
+            "sku": "APP-L-MA-M4-001",
+            "cpu": "2.4 GHz",
+            "graphics": "10-core GPU (on M4)",
+            "graphics_memory": "",
+            "graphics_type": "Integrated",
+            "memory": "16GB LPDDR5 unified memory",
+            "storage": "512",
+            "storage_type": "SSD",
+            "storage_interface": "NVMe PCIe",
+            "display": "15.3-inch, 2880 x 1864, IPS, 60 Hz, Liquid Retina, True Tone",
+            "networking": "Wi-Fi 6E, Bluetooth 5.3",
+            "ports": "2x Thunderbolt 4 (USB Type-C), 3.5 mm headphone jack, MagSafe 3",
+            "usba": "0",
+            "usbc": "4",
+            "ethernet": "0",
+            "thunderbolt": "2",
+            "audiojack": "1",
+            "hdmi": "0",
+            "camera": "12MP Center Stage camera",
+            "battery": "66.5 WHr",
+            "power_adapter": "35W dual USB-C port compact power adapter",
+            "operating_system": "macOS Sequoia 15.3",
+            "dimensions": "13.4 x 9.35 x 0.45 inches (340.4 x 237.6 x 11.5 mm)",
+            "weight": "1.5",
+            "model": "A",
+            "touch": "False",
+            "color": "White",
+            "year": "2025",
+            "price": "1234",
+            "size": "",
+            "rating": "4",
+            "rating_count": "20",
+            "buy_link": ""
+        }
+    ],
+    "screen-sizes": [
+        "13",
+        "15"
+    ]
+}

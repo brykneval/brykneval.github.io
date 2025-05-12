@@ -1,0 +1,68 @@
+<!-- ** Basic Page Needs ** -->
+<meta charset="utf-8">
+<title>{{page.title}} | Nepal</title>
+
+<!-- ** Mobile Specific Metas ** -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="{{page.meta_description}}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="jhuppo">
+<meta name="robots" content="index, follow">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ page.title | escape }} | Nepal" />
+<meta property="og:description" content="{{ page.meta_description | escape }}" />
+<meta property="og:type" content="product" />
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:image" content="{{ site.url }}{{ page.title_img }}" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ page.title | escape }} | Nepal" />
+<meta name="twitter:description" content="{{ page.meta_description | escape }}" />
+<meta name="twitter:image" content="{{ site.url }}{{ page.title_img }}" />
+
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    onload="this.onload=null;this.rel='stylesheet'">
+
+<!-- Fallback -->
+<noscript>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap">
+</noscript>
+
+<link rel="preload" href="/asset/plugins/bootstrap/bootstrap.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="/asset/plugins/bootstrap/bootstrap.min.css">
+</noscript>
+
+<link rel="preload" href="/asset/css/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="/asset/css/style.min.css">
+</noscript>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+{% if jekyll.environment == "production" %}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8XP7YHCHP7"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-8XP7YHCHP7');
+</script>
+{% endif %}

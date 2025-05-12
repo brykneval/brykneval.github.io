@@ -11,7 +11,6 @@ meta_description: "Minimalist Salicylic Acid + LHA 2% Body Wash gently exfoliate
 title: "Minimalist Salicylic Acid + LHA 2% Body Wash"
 skin_type: "Oily, Combination, Normal"
 
-brand_info: <div class="row"><div class="col-12"><div class="heading pb-28"><h2>What minimalist stands for</h2></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Transparency</h3><p>Full disclosure of ingredients used & their concentration</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Efficacy</h3><p>Formulations developed in our in-house laboratories</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Affordable</h3><p>Skincare, accessible to all</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Only the best</h3><p>Ingredients sourced from across the world</p></div></div></div>
 meta_category: "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer"
 sku: MIN-L-MSALBW-003
 fragnance: Fragnance free
@@ -22,16 +21,10 @@ variant_type: size
 permalink: minimalist/salicylic-acid-lha-body-wash
 redirect_from: products/minimalist-salicylic-acid-lha-2-body-wash-in-nepal
 title_description: Minimalist Salicylic Acid + LHA 2% Body Wash is a gentle exfoliating cleanser that targets body acne, unclogs pores, and removes dead skin cells. This pH-balanced formula with 2% Salicylic Acid and LHA helps control excess oil, reduces blemishes, and leaves skin smoother and clearer with every wash.
-title_img: /images/minimalist/minimalist-salicylic-acid-lha-body-wash
+title_img: /images/minimalist/salicylic-acid-lha-body-wash
 title_img_alt: Minimalist Salicylic Acid + LHA 2% Body Wash
-secondary_img: /images/minimalist/minimalist-salicylic-acid-lha-body-wash-ingredients-label
+secondary_img: /images/minimalist/salicylic-acid-lha-body-wash-ingredients-label
 secondary_img_alt: Minimalist Salicylic Acid + LHA 2% Body Wash Ingredients Label
 product_line: Don’t let breakouts take control—clear your skin before they strike.
 ---
-<div class="col-lg-6 col-sm-6 mb-5 mb-lg-0 text-left">
-    <p>
-        <a href="https://s.daraz.com.np/s.gz6n?cc" class="link-title" title="daraz icon link to product"><img loading="lazy" src="/images/icons/social/daraz-icon.webp" alt="daraz icon link to product" class="m-2"
-            style="width: 48px;">Buy from Daraz - 200 ml
-        </a>
-    </p>
-</div>
+{% include buy.html description="200 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gz6n?cc" %}
