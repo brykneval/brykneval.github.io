@@ -489,7 +489,7 @@ layout: compress
         "value": {{laptop.weight_value}},
         "unitText": "KG"
       },
-      "color": {{ laptop.color | jsonify }},
+      "color": "{{ laptop.color }}",
       "releaseDate": "{{laptop.year}}",
       "isVariantOf": {
         "@id": "#{{page.sku}}"
