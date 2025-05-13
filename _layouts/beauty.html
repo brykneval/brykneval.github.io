@@ -252,7 +252,7 @@ layout: compress
 
 {% assign three_months_from_now = "now" | date: "%Y-%m-%d" | date: "%s" | plus: 7884000 | date: "%Y-%m-%d" %}
 <script type="application/ld+json">
-{
+[{
   "@context": "https://schema.org/",
   "@type": "ProductGroup",
   "@id": "#{{page.sku}}",
@@ -329,9 +329,48 @@ layout: compress
       "value": "{{page.usage | strip_html}}"
     }
   ]
-}
-</script>
-<script type="application/ld+json">
+},
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "{{page.title}}",
+  "description": "{{page.product_line}}",
+  "datePublished": "2025-05-05T14:00:00+00:00",
+  "dateModified": "",
+  "url": "{{ site.url }}{{ page.url }}",
+  "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jhuppo",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/images/system/jhuppo-logo-large.png",
+      "width": "512",
+      "height": "512"
+    }
+  },
+  "articleSection": "Reviews",
+  "keywords": {{page.keywords | jsonify}},
+  "author": [
+    {
+      "@type": "Organization",
+      "name": "Jhuppo",
+      "url": "https://jhuppo.com"
+    }
+  ],
+  "isAccessibleForFree": true,
+  "image": [
+    {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{page.title_img}}-1280w.webp"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{page.secondary_img}}-1280w.webp"
+    }
+  ],
+  "articleBody": "{{page.title_description | strip_html}} {{page.ingredients | strip_html}} {{page.ingredients_summary | strip_html}} {{page.ingredients_quality | strip_html}} {{page.based_skin | strip_html}} {{page.based_age | strip_html}} {{page.usage | strip_html}} {{page.choose_for | strip_html}} {{page.avoid_if | strip_html}}"
+},
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -355,7 +394,7 @@ layout: compress
       "item": "{{ site.url }}{{ page.url }}"
     }
   ]
-}
+}]
 </script>
 
 </html>

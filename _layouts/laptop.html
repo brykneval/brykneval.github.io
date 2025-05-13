@@ -400,7 +400,7 @@ layout: compress
   {{page.data}}
 </footer>
 <script type="application/ld+json">
-{
+[{
   "@context": "https://schema.org",
   "@type": "ProductGroup",
   "name": "{{page.title}}",
@@ -550,9 +550,60 @@ layout: compress
     {% endif %}
     {% endfor %}
   ]
-}  
-</script>
-<script type="application/ld+json">
+},
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "{{page.title}}",
+  "description": "{{page.product_line}}",
+  "datePublished": "2025-05-12T14:00:00+00:00",
+  "dateModified": "",
+  "url": "{{ site.url }}{{ page.url }}",
+  "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jhuppo",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/images/system/jhuppo-logo-large.png",
+      "width": "512",
+      "height": "512"
+    }
+  },
+  "articleSection": "Reviews",
+  "keywords": {{page.meta_keywords | jsonify}},
+  "author": [
+    {
+      "@type": "Organization",
+      "name": "Jhuppo",
+      "url": "https://jhuppo.com"
+    }
+  ],
+  "isAccessibleForFree": true,
+  "image": [
+    {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{page.cover_img}}-1920w.webp"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{page.design_img_1}}-1920w.webp"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{page.display_img}}-1920w.webp"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{page.inside_box_img}}-1920w.webp"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{page.ports_img}}-1920w.webp"
+    }
+  ],
+  "articleBody": "{{page.design | strip_html}} {{page.specs | strip_html}} {{page.display | strip_html}} {{page.ports | strip_html}} {{page.battery | strip_html}} {{page.pre_value | strip_html}} {{page.for | strip_html}} {{page.post_value | strip_html}}"
+},
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
@@ -576,7 +627,7 @@ layout: compress
       "item": "{{ site.url }}{{ page.url }}"
     }
   ]
-}
+}]
 </script>
 
 </html>
