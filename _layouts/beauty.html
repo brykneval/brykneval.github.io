@@ -6,7 +6,14 @@ layout: compress
 
 <head>
   {% include header.html %}
-  <link rel="preload" as="image" href="{{page.title_img}}-640w.webp" type="image/webp" fetchpriority="high">
+  <link rel="preload" href="{{page.title_img}}-320w.webp" as="image" type="image/webp" fetchpriority="high"
+    media="(max-width: 320px)">
+  <link rel="preload" href="{{page.title_img}}-640w.webp" as="image" type="image/webp" fetchpriority="high"
+    media="(min-width: 321px) and (max-width: 767px)">
+  <link rel="preload" href="{{page.title_img}}-960w.webp" as="image" type="image/webp" fetchpriority="high"
+    media="(min-width: 768px) and (max-width: 992px)">
+  <link rel="preload" href="{{page.title_img}}-1280w.webp" as="image" type="image/webp" fetchpriority="high"
+    media="(min-width: 993px)">
 </head>
 <div data-pagefind-meta="image[src]" src="{{page.title_img}}-640w.webp">
 </div>

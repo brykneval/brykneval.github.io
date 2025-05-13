@@ -6,7 +6,16 @@ layout: compress
 
 <head>
   {% include header.html %}
-  <link rel="preload" as="image" href="{{page.cover_img}}-640w.webp" type="image/webp" fetchpriority="high">
+  <link rel="preload" href="{{page.cover_img}}-320w.webp" as="image" type="image/webp" fetchpriority="high"
+    media="(max-width: 320px)">
+  <link rel="preload" href="{{page.cover_img}}-640w.webp" as="image" type="image/webp" fetchpriority="high"
+    media="(min-width: 321px) and (max-width: 768px)">
+  <link rel="preload" href="{{page.cover_img}}-960w.webp" as="image" type="image/webp" fetchpriority="high"
+    media="(min-width: 769px) and (max-width: 992px)">
+  <link rel="preload" href="{{page.cover_img}}-1280w.webp" as="image" type="image/webp" fetchpriority="high"
+    media="(min-width: 993px) and (max-width: 1440px)">
+  <link rel="preload" href="{{page.cover_img}}-1920w.webp" as="image" type="image/webp" fetchpriority="high"
+    media="(min-width: 1441px)">
 </head>
 {% assign three_months_from_now = "now" | date: "%Y-%m-%d" | date: "%s" | plus: 7884000 | date: "%Y-%m-%d" %}
 {% if page.sku == "APP-L-MA-001" %}
