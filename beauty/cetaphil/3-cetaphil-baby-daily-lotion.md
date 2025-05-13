@@ -15,7 +15,7 @@ title_img: /images/cetaphil/baby-daily-lotion
 title_img_alt: Cetaphil Baby Daily Lotion
 secondary_img: /images/cetaphil/baby-daily-lotion-ingredients-label
 secondary_img_alt: Cetaphil Baby Daily Lotion Ingredients Label
-permalink: cetaphil/baby-daily-lotion
+permalink: cetaphil/baby-daily-lotion/
 redirect_from: products/cetaphil-baby-daily-lotion-in-nepal
 title_description: Cetaphil Baby Daily Lotion is a dermatologist-recommended moisturizer formulated with organic calendula to protect and nourish baby’s delicate skin. It provides long-lasting hydration, soothes irritation, and helps strengthen the skin barrier. The hypoallergenic and paraben-free formula makes it ideal for sensitive, dry, and eczema-prone skin, ensuring all-day moisture without harsh ingredients.
 meta_category: "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer"

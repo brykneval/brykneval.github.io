@@ -18,7 +18,7 @@ dispenser: Tube
 gpc: 2844
 variants: MIN-L-MLFSS-008-50ML_50 ml_801
 variant_type: size
-permalink: minimalist/light-fluid-spf-sunscreen
+permalink: minimalist/light-fluid-spf-sunscreen/
 redirect_from: products/minimalist-light-fluid-spf-50-sunscreen-in-nepal
 title_description: Minimalist Light Fluid SPF 50 Sunscreen is a broad-spectrum, lightweight sunscreen that protects against UVA and UVB rays while leaving no white cast. Enriched with advanced UV filters like Uvinul A Plus and Tinosorb S, it offers effective sun protection. The non-comedogenic, fragrance-free, and water-based formula ensures a matte finish, making it ideal for daily use on all skin types, especially oily and acne-prone skin.
 title_img: /images/minimalist/light-fluid-spf-sunscreen

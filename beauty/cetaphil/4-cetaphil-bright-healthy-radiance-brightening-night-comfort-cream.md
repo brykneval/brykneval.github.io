@@ -13,7 +13,7 @@ title_img: /images/cetaphil/bright-healthy-radiance-brightening-night-comfort-cr
 title_img_alt: Cetaphil BHR Brightening Night Comfort Cream
 secondary_img: /images/cetaphil/bright-healthy-radiance-brightening-night-comfort-cream-ingredients-label
 secondary_img_alt: Cetaphil BHR Brightening Night Comfort Cream Ingredients Label
-permalink: cetaphil/bright-healthy-radiance-brightening-night-comfort-cream
+permalink: cetaphil/bright-healthy-radiance-brightening-night-comfort-cream/
 redirect_from: products/cetaphil-bright-healthy-radiance-brightening-night-comfort-cream-in-nepal
 meta_description: Cetaphil Bright Healthy Radiance Night Cream brightens and hydrates overnight, reducing dark spots and evening skin tone for a radiant, healthy complexion.
 title_description: Cetaphil Bright Healthy Radiance Brightening Night Comfort Cream is a dermatologist-tested, fragrance-free moisturizer designed to brighten and even out skin tone while providing deep hydration overnight. Enriched with GentleBright Technology, featuring Niacinamide and Sea Daffodil Extract, it helps reduce dark spots, enhance radiance, and restore the skin barrier. Its lightweight, non-greasy formula is suitable for sensitive skin, ensuring a soothing and nourishing experience. Wake up to smoother, more radiant skin with this clinically proven brightening night cream.

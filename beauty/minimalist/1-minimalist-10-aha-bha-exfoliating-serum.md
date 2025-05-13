@@ -1,6 +1,6 @@
 ---
 title: Minimalist 10% AHA BHA Face Exfoliator
-permalink: minimalist/aha-bha-face-exfoliator
+permalink: minimalist/aha-bha-face-exfoliator/
 redirect_from: products/minimalist-10-aha-bha-exfoliating-serum-in-nepal
 meta_description: Buy Minimalist 10% AHA BHA Exfoliating Serum in Nepal. Gently exfoliate, brighten, and smooth your skin for a clear, refreshed complexion. Dermatologist-tested formula.
 title_description: Minimalist <b>10% AHA BHA Exfoliating Serum</b> is a gentle exfoliating solution designed to rejuvenate the skin by removing dead cells and promoting a radiant complexion. This serum combines <b>Alpha Hydroxy Acids</b> (<b>Glycolic Acid</b> & <b>Lactic Acid</b>) with <b>Beta Hydroxy Acid</b> (<b>Salicylic Acid</b>) to target both the skin's surface and pores, ensuring a thorough exfoliation without causing dryness.

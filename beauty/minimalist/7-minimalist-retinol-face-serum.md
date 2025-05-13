@@ -18,7 +18,7 @@ dispenser: Plastic container
 gpc: 2592
 variants: MIN-L-MRFS-007-30ML_30 ml_961
 variant_type: size
-permalink: minimalist/retinol-face-serum
+permalink: minimalist/retinol-face-serum/
 redirect_from: products/minimalist-retinol-face-serum-in-nepal
 title_description: Minimalist Retinol 0.3% Face Serum is a gentle yet effective anti-aging treatment designed to reduce fine lines, wrinkles, and promote skin renewal. Formulated with 0.3% Retinol, this serum helps to accelerate skin turnover, revealing smoother, younger-looking skin over time. Perfect for those who are new to Retinol or looking for a mild introduction to its benefits, it also provides deep hydration and promotes even skin texture without causing irritation.
 title_img: /images/minimalist/retinol-face-serum
