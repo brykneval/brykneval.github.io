@@ -57,9 +57,20 @@ layout: compress
 
 <script>
   window.addEventListener('DOMContentLoaded', (event) => {
-    new PagefindUI({ element: "#search", baseUrl: "/", showSubResults: true });
+    new PagefindUI({
+      element: "#search", baseUrl: "/", processResult: function (result) {
+        if (result.url.endsWith(".html")) {
+          result.url = result.url.replace(/\.html$/, "");
+        } else {
+          result.url = result.url.slice(0, -1) + "";
+        }
+        return result;
+      }
+    });
   });
 </script>
+
+
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",

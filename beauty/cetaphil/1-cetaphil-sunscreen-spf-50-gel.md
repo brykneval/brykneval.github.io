@@ -1,6 +1,6 @@
 ---
 title: Cetaphil Sunscreen SPF 50+ Gel
-permalink: cetaphil/sunscreen-spf-gel/
+permalink: cetaphil/sunscreen-spf-gel
 redirect_from: products/cetaphil-sunscreen-spf-50-gel-in-nepal
 meta_description: Buy Cetaphil Sunscreen SPF 50+ Gel in Nepal. Protect your skin with broad-spectrum SPF 50+ protection, ideal for sensitive skin. Lightweight, non-greasy, and perfect for everyday sun defense.
 title_description: Cetaphil Sunscreen SPF 50+ Gel provides high-level sun protection with a broad-spectrum formula that shields the skin from both UVA and UVB rays. Its lightweight, gel-based texture absorbs quickly without leaving a greasy residue, making it ideal for all skin types, especially oily and acne-prone skin. Enriched with ingredients like Ethylhexylmethoxycinnamate and Titanium Dioxide, it offers long-lasting defense against sun damage, while Vitamin E helps protect the skin from environmental stressors. Perfect for daily use, this gel helps maintain healthy, protected skin all day.

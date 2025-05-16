@@ -18,7 +18,7 @@ dispenser: Plastic container
 gpc: 2592
 variants: MIN-L-MVBM-006-50GM_50 gm_561
 variant_type: size
-permalink: minimalist/vitamin-b5-moisturizer/
+permalink: minimalist/vitamin-b5-moisturizer
 redirect_from: products/minimalist-vitamin-b5-10-moisturizer-in-nepal
 title_description: This Vitamin B5 10% Moisturizer is a lightweight yet deeply hydrating formula that soothes, repairs, and strengthens the skin barrier. Enriched with Vitamin B5 (Panthenol), it helps retain moisture, reduces redness, and promotes skin healing. Ideal for daily use, it keeps skin soft, supple, and healthy without feeling greasy or heavy.
 title_img: /images/minimalist/vitamin-b5-moisturizer

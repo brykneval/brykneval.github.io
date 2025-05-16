@@ -1,6 +1,6 @@
 ---
 title: Cetaphil Moisturizing Lotion
-permalink: cetaphil/moisturizing-lotion/
+permalink: cetaphil/moisturizing-lotion
 redirect_from: products/cetaphil-moisturizing-lotion-in-nepal
 meta_description: Buy Cetaphil Moisturizing Lotion in Nepal. Gentle, non-greasy hydration for dry and sensitive skin. Fast-absorbing, fragrance-free formula for everyday use.
 title_description: Cetaphil Moisturizing Lotion is a lightweight, non-greasy moisturizer designed for dry and sensitive skin, providing long-lasting hydration without clogging pores. Formulated with glycerin, macadamia nut oil, and vitamin E, it helps strengthen the skin barrier, lock in moisture, and soothe irritation. Dermatologist-tested and fragrance-free, this fast-absorbing lotion is ideal for daily use on both the face and body, making it a popular choice for those with eczema, rosacea, or dehydrated skin. Trusted by skincare professionals worldwide, Cetaphil Moisturizing Lotion delivers intense hydration and nourishment, keeping skin soft, smooth, and healthy all day.

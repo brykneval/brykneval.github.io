@@ -18,7 +18,7 @@ dispenser: Plastic container
 gpc: 2592
 variants: MIN-L-MMOFM-005-50GM_50 gm_561
 variant_type: size
-permalink: minimalist/marula-oil-face-moisturizer/
+permalink: minimalist/marula-oil-face-moisturizer
 redirect_from: products/minimalist-marula-oil-5-face-moisturizer-in-nepal
 title_description: Minimalist Marula Oil 5% Face Moisturizer's lightweight, non-greasy moisturizer is infused with 5% Marula Oil, providing intense hydration, improving skin texture, and restoring the skin barrier. Rich in antioxidants, it helps reduce dryness, promotes elasticity, and leaves your skin soft, supple, and radiant.
 title_img: /images/minimalist/marula-oil-face-moisturizer

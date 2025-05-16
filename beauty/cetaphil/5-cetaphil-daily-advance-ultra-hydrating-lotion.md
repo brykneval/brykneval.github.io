@@ -15,7 +15,7 @@ title_img: /images/cetaphil/daily-advance-ultra-hydrating-lotion
 title_img_alt: Cetaphil Daily Advance Ultra Hydrating Lotion
 secondary_img: /images/cetaphil/daily-advance-ultra-hydrating-lotion-ingredients-label
 secondary_img_alt: Cetaphil Daily Advance Ultra Hydrating Lotion Ingredients Label
-permalink: cetaphil/daily-advance-ultra-hydrating-lotion/
+permalink: cetaphil/daily-advance-ultra-hydrating-lotion
 redirect_from: products/cetaphil-daily-advance-ultra-hydrating-lotion-in-nepal
 title_description: Cetaphil Daily Advance Ultra Hydrating Lotion is a lightweight, non-greasy moisturizer designed to intensively hydrate and protect dry skin for 24-hour relief. Infused with glycerin and panthenol, it provides long-lasting moisture while soothing and replenishing the skin’s natural barrier. Fragrance-free and dermatologically tested, this lotion is ideal for sensitive skin and suitable for both face and body. With its gentle formula, it helps improve skin's hydration without irritation, making it perfect for everyday use.
 meta_category: "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer"

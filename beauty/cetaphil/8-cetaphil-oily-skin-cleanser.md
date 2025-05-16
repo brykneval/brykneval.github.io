@@ -13,7 +13,7 @@ title_img: /images/cetaphil/oily-skin-cleanser
 title_img_alt: Cetaphil Oily Skin Cleanser
 secondary_img: /images/cetaphil/oily-skin-cleanser-ingredients-label
 secondary_img_alt: Cetaphil Oily Skin Cleanser Ingredients Label
-permalink: cetaphil/oily-skin-cleanser/
+permalink: cetaphil/oily-skin-cleanser
 redirect_from: products/cetaphil-oily-skin-cleanser-in-nepal
 title: Cetaphil Oily Skin Cleanser
 meta_description: Cetaphil Bright Healthy Radiance Night Cream brightens and hydrates overnight, reducing dark spots and evening skin tone for a radiant, healthy complexion.

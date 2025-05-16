@@ -18,7 +18,7 @@ dispenser: Plastic container
 gpc: 2592
 variants: MIN-L-MNBL-004-180GM_180 gm_481
 variant_type: size
-permalink: minimalist/niacinamide-body-lotion/
+permalink: minimalist/niacinamide-body-lotion
 redirect_from: products/minimalist-niacinamide-5-body-lotion-in-nepal
 title_description: Minimalist Niacinamide 5% Body Lotion is a lightweight, fast-absorbing formula that hydrates, evens skin tone, and reduces body blemishes. Enriched with 5% Niacinamide, it strengthens the skin barrier, minimizes redness, and promotes smooth, healthy skin. Ideal for daily use.
 title_img: /images/minimalist/niacinamide-body-lotion
