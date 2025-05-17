@@ -57,7 +57,8 @@ layout: compress
             {{page.cover_img}}-1920w.webp 1920w" sizes="(max-width: 576px) 100vw,
             (max-width: 768px) 100vw,
             (max-width: 992px) 100vw,
-            (min-width: 993px) 100vw" src="{{page.cover_img}}-960w.webp" alt="{{page.cover_alt}}">
+            (min-width: 993px) 100vw" width="1110" height="544" src="{{page.cover_img}}-960w.webp"
+            alt="{{page.cover_alt}}">
         </div>
       </div>
     </div>
@@ -117,7 +118,7 @@ layout: compress
             {{page.design_img_1}}-1440w.webp 1440w,
             {{page.design_img_1}}-1920w.webp 1920w" sizes="(max-width: 767px) 100vw,
                         (min-width: 768px) calc(6/12 * 100vw)" src="{{page.design_img_1}}-960w.webp"
-            alt="{{page.design_alt_1}}" loading="lazy">
+            alt="{{page.design_alt_1}}" width="540" height="415" loading="lazy">
         </div>
       </div>
     </div>
@@ -168,7 +169,7 @@ layout: compress
                       {{item.img}}-640w.webp 640w,
                       {{item.img}}-960w.webp 960w" sizes="(max-width: 767px) 100vw,
                       (min-width: 768px) calc(3/12 * 100vw)" src="{{item.img}}-640w.webp" alt="{{item.alt}}"
-            loading="lazy">
+            loading="lazy" width="255" height="185">
           <p>{{item.name}}</p>
         </div>
         {% endfor %}
@@ -218,7 +219,7 @@ layout: compress
                         {{page.display_img}}-1440w.webp 1440w,
                         {{page.display_img}}-1920w.webp 1920w" sizes="(max-width: 767px) 100vw,
                                     (min-width: 768px) calc(6/12 * 100vw)" src="{{page.display_img}}-960w.webp"
-            alt="{{page.display_alt}}" loading="lazy">
+            alt="{{page.display_alt}}" width="540" height="415" loading="lazy">
 
         </div>
         <div class="col-md-6 align-self-center text-center text-md-left">
@@ -248,7 +249,7 @@ layout: compress
                         {{page.ports_img}}-1440w.webp 1440w,
                         {{page.ports_img}}-1920w.webp 1920w" sizes="(max-width: 767px) 100vw,
                                     (min-width: 768px) calc(6/12 * 100vw)" src="{{page.ports_img}}-960w.webp"
-            alt="{{page.ports_alt}}" loading="lazy">
+            alt="{{page.ports_alt}}" width="540" height="415" loading="lazy">
         </div>
       </div>
 
@@ -282,7 +283,7 @@ layout: compress
             {{page.inside_box_img}}-1440w.webp 1440w,
             {{page.inside_box_img}}-1920w.webp 1920w" alt="{{page.inside_box_alt}}" sizes="(max-width: 767px) 100vw,
                         (min-width: 768px) and (max-width: 991px) calc(8/12 * 100vw),
-                        (min-width: 992px) calc(8/12 * 992px)" loading="lazy">
+                        (min-width: 992px) calc(8/12 * 992px)" width="660" height="244" loading="lazy">
             <p>{{ page.inside_box }}</p>
           </div>
         </div>
@@ -358,7 +359,7 @@ layout: compress
           <p>
             <a href="https://wa.me/9704583400?text={{ site.url }}{{ page.url }}" class="link-title"
               title="Any Questions?"><img loading="lazy" src="/images/icons/social/whatsapp-icon.webp"
-                alt="whatsapp icon to contact" class="m-2" style="width: 48px;">Any Questions?
+                alt="whatsapp icon to contact" class="m-2" width="48" height="48">Any Questions?
             </a>
           </p>
         </div>
