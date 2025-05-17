@@ -400,7 +400,7 @@ layout: compress
   {{page.data}}
 </footer>
 <script type="application/ld+json">
-[{
+{
   "@context": "https://schema.org",
   "@type": "ProductGroup",
   "name": "{{page.title}}",
@@ -550,7 +550,9 @@ layout: compress
     {% endif %}
     {% endfor %}
   ]
-},
+}
+</script>
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
@@ -602,7 +604,9 @@ layout: compress
     }
   ],
   "articleBody": "{{page.design | strip_html}} {{page.specs | strip_html}} {{page.display | strip_html}} {{page.ports | strip_html}} {{page.battery | strip_html}} {{page.pre_value | strip_html}} {{page.for | strip_html}} {{page.post_value | strip_html}}"
-},
+}
+</script>
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
