@@ -1,7 +1,6 @@
 ---
 title: Macbook Pro M4 Pro
 permalink: apple/macbook-pro-m4-pro
-redirect_from: apple/macbook-pro-m4-pro/
 meta_description: Experience top-tier performance with the 2024 MacBook Pro M4 Pro—featuring a 12-core CPU, 16-core GPU, stunning Liquid Retina XDR display, and long-lasting battery life. Ideal for creators, coders, and professionals.
 cover_img: /images/apple/macbook-pro-m4/with-nano-texture-display
 cover_alt: MacBook Pro with nano texture display
@@ -79,9 +78,10 @@ value_data: '<div class="responsive-table">
             </div>'
 rating: 4.8
 rating_count: 714
-rating_from: amazon.com
+rating_from: Amazon.com
 year: 2024
 meta_category: "Electronics > Computers > Laptops"
 sku: APP-L-MP-002
 gpc: 328
+published_date: May 12, 2025
 ---
