@@ -1,5 +1,14 @@
 [
     {
+        "title": "Macbook Air M4",
+        "url": "apple/macbook-air-m4",
+        "sku": "APP-L-MA-001",
+        "price": "16900",
+        "thumb": "apple/macbook-air-m4/display",
+        "category": "Electronics > Computers > Laptops",
+        "description": "Meet the MacBook Air M4: ultra-thin design, powerful M4 chip, stunning Retina display, and all-day battery—built for speed, style, and portability."
+    },
+    {
         "title": "Macbook Pro M4 Pro",
         "url": "apple/macbook-pro-m4",
         "sku": "APP-L-MP-M4-002",

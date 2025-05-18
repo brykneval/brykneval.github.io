@@ -44,7 +44,7 @@ layout: compress
             <h1 class="mb-1">{{ page.title }}</h1>
             <p class="mb-2">{{ page.product_line }}</p>
             <p class="stars mb-4" style="--rating: {{ page.rating }};"
-              aria-label="Rating of this product is {{ page.rating }} out of 5."></p>
+              aria-label="Rating of this product is {{ page.rating }} out of 5." title="{{page.rating}}"></p>
             <span> | {{page.rating_from}}</span><span> | Published on: {{page.published_date}}</span>
           </div>
         </div>
@@ -104,21 +104,11 @@ layout: compress
   <section class="feature-list section" id="sectionDesign">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="heading pb-28">
             <h2>On Design</h2>
             <p>{{ page.design }}</p>
           </div>
-        </div>
-        <div class="col-md-6">
-          <img class="img-fluid rounded" srcset="{{page.design_img_1}}-320w.webp 320w,
-            {{page.design_img_1}}-640w.webp 640w,
-            {{page.design_img_1}}-960w.webp 960w,
-            {{page.design_img_1}}-1280w.webp 1280w,
-            {{page.design_img_1}}-1440w.webp 1440w,
-            {{page.design_img_1}}-1920w.webp 1920w" sizes="(max-width: 767px) 100vw,
-                        (min-width: 768px) calc(6/12 * 100vw)" src="{{page.design_img_1}}-960w.webp"
-            alt="{{page.design_alt_1}}" width="540" height="415" loading="lazy">
         </div>
       </div>
     </div>
@@ -344,8 +334,8 @@ layout: compress
         <div class="col-md-12 mb-3">
           <h2>To Buy</h2>
         </div>
+        {% for laptop in data_specs %}
         <div class="col-md-4 mb-4">
-          {% for laptop in data_specs %}
           {% assign descriptionData = laptop.display_size | append: " inch | "
           | append: laptop.cpu | append: " | "
           | append: laptop.graphics | append: " | "
@@ -353,8 +343,8 @@ layout: compress
           | append: laptop.storage %}
           {% include buy.html description=descriptionData title=laptop.title button_text="Buy from Daraz"
           link=laptop.buy_link %}
-          {% endfor %}
         </div>
+        {% endfor %}
         <div class="col-lg-12 col-sm-6 mb-5 mb-lg-0 text-left">
           <p>
             <a href="https://wa.me/9704583400?text={{ site.url }}{{ page.url }}" class="link-title"
