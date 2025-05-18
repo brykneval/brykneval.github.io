@@ -549,7 +549,8 @@ layout: compress
   "@type": "NewsArticle",
   "headline": "{{page.title}} Review",
   "description": "{{page.product_line}}",
-  "datePublished": "2025-05-12T14:00:00+00:00",
+  "datePublished": "{{page.published_date_ISO}}",
+  "dateModified": "{{page.modified_date_ISO}}",,
   "url": "{{ site.url }}{{ page.url }}",
   "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
   "publisher": {

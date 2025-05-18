@@ -59,4 +59,6 @@ meta_category: "Electronics > Computers > Laptops"
 sku: APP-L-MA-001
 gpc: 328
 published_date: May 18, 2025
+published_date_ISO: "2025-05-18T14:00:00+00:00"
+modified_date_ISO: "2025-05-18T18:00:00+00:00"
 ---

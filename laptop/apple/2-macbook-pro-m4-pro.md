@@ -1,8 +1,9 @@
 ---
 title: Macbook Pro M4 Pro
 permalink: apple/macbook-pro-m4
-redirect_from: apple/macbook-pro-m4-pro/
-redirect_from: apple/macbook-pro-m4-pro
+redirect_from: 
+  - apple/macbook-pro-m4-pro
+  - apple/macbook-pro-m4-pro/
 meta_description: Discover the power of the MacBook Pro M4 Pro with cutting-edge performance, stunning display, and exceptional battery life perfect for professionals & creators.
 cover_img: /images/apple/macbook-pro-m4/with-nano-texture-display
 cover_alt: MacBook Pro with nano texture display
@@ -86,4 +87,6 @@ meta_category: "Electronics > Computers > Laptops"
 sku: APP-L-MP-002
 gpc: 328
 published_date: May 12, 2025
+published_date_ISO: "2025-05-12T14:00:00+00:00"
+modified_date_ISO: "2025-05-12T18:00:00+00:00"
 ---
