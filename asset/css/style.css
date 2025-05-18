@@ -826,7 +826,6 @@ button.message:hover {
 /* Responsiveness:Start */
 @media screen and (max-width: 480px) {
   .box {
-    width: 100vw;
     border-radius: 0px;
   }
 
