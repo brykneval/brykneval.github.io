@@ -34,20 +34,20 @@ layout: compress
 </div>
 
 <body>
-  <section class="section">
-    <div class="container">
-      {% include breadcrumb.html %}
-      <div class="row">
-        <div class="col-md-12 align-self-center text-center text-md-left">
-          <h1 class="mb-1">{{ page.title }}</h1>
-          <p class="mb-2">{{ page.product_line }}</p>
-          <p class="stars" style="--rating: {{ page.rating }};"
-            aria-label="Rating of this product is {{ page.rating }} out of 5." title="{{page.rating}}"></p>
-          <span> | {{page.rating_from}}</span><span> | Published on: {{page.published_date}}</span>
-        </div>
+
+  <div class="container" style="margin-top: 50px;">
+    {% include breadcrumb.html %}
+    <div class="row">
+      <div class="col-md-12 align-self-center text-center text-md-left">
+        <h1 class="mb-1">{{ page.title }}</h1>
+        <p class="mb-2">{{ page.product_line }}</p>
+        <p class="stars" style="--rating: {{ page.rating }};"
+          aria-label="Rating of this product is {{ page.rating }} out of 5." title="{{page.rating}}"></p>
+        <span> | {{page.rating_from}}</span><span> | Published on: {{page.published_date}}</span>
       </div>
-      <div class="col-md-12 text-center mb-5 p-0 m-0">
-        <img class="img-fluid rounded" srcset="{{page.cover_img}}-320w.webp 320w,
+    </div>
+    <div class="col-md-12 text-center mb-5 p-0 m-0">
+      <img class="img-fluid rounded" srcset="{{page.cover_img}}-320w.webp 320w,
             {{page.cover_img}}-640w.webp 640w,
             {{page.cover_img}}-960w.webp 960w,
             {{page.cover_img}}-1280w.webp 1280w,
@@ -56,10 +56,9 @@ layout: compress
             (max-width: 768px) 100vw,
             (max-width: 992px) 100vw,
             (min-width: 993px) 100vw" width="1110" height="544" src="{{page.cover_img}}-960w.webp"
-          alt="{{page.cover_alt}}">
-      </div>
+        alt="{{page.cover_alt}}">
     </div>
-  </section>
+  </div>
 
   <section class="feature-list section">
     <div class="container">
