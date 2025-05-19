@@ -30,7 +30,6 @@ layout: compress
 {% assign laptopColors = site.data.laptop.macbook-pro-m4.colors %}
 {% endif %}
 
-
 <div data-pagefind-meta="image[src]" src="{{page.display_img}}-640w.webp">
 </div>
 
@@ -40,16 +39,15 @@ layout: compress
       {% include breadcrumb.html %}
       <div class="row">
         <div class="col-md-12 align-self-center text-center text-md-left">
-          <div class="block">
-            <h1 class="mb-1">{{ page.title }}</h1>
-            <p class="mb-2">{{ page.product_line }}</p>
-            <p class="stars mb-4" style="--rating: {{ page.rating }};"
-              aria-label="Rating of this product is {{ page.rating }} out of 5." title="{{page.rating}}"></p>
-            <span> | {{page.rating_from}}</span><span> | Published on: {{page.published_date}}</span>
-          </div>
+          <h1 class="mb-1">{{ page.title }}</h1>
+          <p class="mb-2">{{ page.product_line }}</p>
+          <p class="stars" style="--rating: {{ page.rating }};"
+            aria-label="Rating of this product is {{ page.rating }} out of 5." title="{{page.rating}}"></p>
+          <span> | {{page.rating_from}}</span><span> | Published on: {{page.published_date}}</span>
         </div>
-        <div class="col-md-12 text-center mb-5 mb-md-0">
-          <img class="img-fluid rounded" srcset="{{page.cover_img}}-320w.webp 320w,
+      </div>
+      <div class="col-md-12 text-center mb-5 mb-md-0">
+        <img class="img-fluid rounded" srcset="{{page.cover_img}}-320w.webp 320w,
             {{page.cover_img}}-640w.webp 640w,
             {{page.cover_img}}-960w.webp 960w,
             {{page.cover_img}}-1280w.webp 1280w,
@@ -58,8 +56,7 @@ layout: compress
             (max-width: 768px) 100vw,
             (max-width: 992px) 100vw,
             (min-width: 993px) 100vw" width="1110" height="544" src="{{page.cover_img}}-960w.webp"
-            alt="{{page.cover_alt}}">
-        </div>
+          alt="{{page.cover_alt}}">
       </div>
     </div>
   </section>
@@ -362,7 +359,9 @@ layout: compress
               differ on actual website.
             </i>
           </p>
+          {% include share.html %}
         </div>
+
       </div>
     </div>
   </section>
@@ -384,6 +383,7 @@ layout: compress
       </div>
     </div>
   </section>
+  <script async src="https://static.addtoany.com/menu/page.js"></script>
 </body>
 <footer>
   {% include footer.html %}
@@ -574,26 +574,11 @@ layout: compress
   ],
   "isAccessibleForFree": true,
   "image": [
-    {
-      "@type": "ImageObject",
-      "url": "{{ site.url }}{{page.cover_img}}-1920w.webp"
-    },
-    {
-      "@type": "ImageObject",
-      "url": "{{ site.url }}{{page.design_img_1}}-1920w.webp"
-    },
-    {
-      "@type": "ImageObject",
-      "url": "{{ site.url }}{{page.display_img}}-1920w.webp"
-    },
-    {
-      "@type": "ImageObject",
-      "url": "{{ site.url }}{{page.inside_box_img}}-1920w.webp"
-    },
-    {
-      "@type": "ImageObject",
-      "url": "{{ site.url }}{{page.ports_img}}-1920w.webp"
-    }
+    "{{ site.url }}{{page.cover_img}}-1920w.webp",
+    "{{ site.url }}{{page.design_img_1}}-1920w.webp",
+    "{{ site.url }}{{page.display_img}}-1920w.webp",
+    "{{ site.url }}{{page.inside_box_img}}-1920w.webp",
+    "{{ site.url }}{{page.ports_img}}-1920w.webp"
   ],
   "articleBody": "{{page.design | strip_html}} {{page.specs | strip_html}} {{page.display | strip_html}} {{page.ports | strip_html}} {{page.battery | strip_html}} {{page.pre_value | strip_html}} {{page.for | strip_html}} {{page.post_value | strip_html}}"
 }

@@ -899,3 +899,23 @@ th {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+
+.share-buttons {}
+
+.share-buttons a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  padding: 0px 4px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.share-buttons a:hover {}
+
+.share-buttons i {
+  margin-right: 6px;
+}
