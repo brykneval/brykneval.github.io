@@ -1,12 +1,12 @@
 ---
-title: Olay Regenerist Micosculpting Night Cream
-permalink: olay/regenerist-micosculpting-night-cream
+title: Olay Regenerist Microsculpting Night Cream
+permalink: olay/regenerist-microsculpting-night-cream
 meta_description: Don’t let your skin lose its firmness overnight. Restore bounce and glow with Olay Regenerist Night Cream—deep hydration for visible results.
 title_description: Olay Regenerist Micro-Sculpting Night Cream deeply hydrates and repairs your skin while you sleep. Powered by Niacinamide, peptides, and Hyaluronic Acid, it works overnight to restore skin’s firmness, smooth fine lines, and improve texture. Wake up to visibly plumper, more youthful-looking skin. Lightweight, non-greasy, and fast-absorbing, it’s suitable for daily use and all skin types.
-title_img: /images/olay/regenerist-micosculpting-night-cream
-title_img_alt: Olay Regenerist Micosculpting Night Cream
-secondary_img: /images/olay/regenerist-micosculpting-night-cream-ingredients-label
-secondary_img_alt: Olay Regenerist Micosculpting Night Cream Ingredients Label
+title_img: /images/olay/regenerist-microsculpting-night-cream
+title_img_alt: Olay Regenerist Microsculpting Night Cream
+secondary_img: /images/olay/regenerist-microsculpting-night-cream-ingredients-label
+secondary_img_alt: Olay Regenerist Microsculpting Night Cream Ingredients Label
 ingredients: Water, Cyclopentasiloxane, Glycerin, Niacinamide, Aluminum Starch Octenylsuccinate, Dimethicone, Dimethicone Crosspolymer, Panthenol, Polyethylene, Polyacrylamide, Tocopheryl Acetate, C13-14 Isoparaffin, DMDM Hydantoin, Allantoin, Laureth-4, Dimethiconol, Laureth-7, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sodium Hyaluronate, Sodium PEG-7 Olive Oil Carboxylate, Disodium EDTA, Peucedanum Graveolens (Dill) Extract, Citric Acid, PEG-100 Stearate, Camellia Sinensis Leaf Extract, Iodopropynyl Butylcarbamate, Palmitoyl Pentapeptide-4.
 ingredients_summary: This cream is formulated with hydrating agents like Glycerin, Sodium Hyaluronate, and Panthenol to deeply moisturize the skin. Niacinamide (Vitamin B3) improves skin tone and texture, while Palmitoyl Pentapeptide-4 and Camellia Sinensis (Green Tea) Leaf Extract support anti-aging and antioxidant benefits. Dimethicone and Cyclopentasiloxane provide a smooth, silky texture and help retain moisture. Additional soothing and skin-conditioning ingredients include Allantoin, Tocopheryl Acetate (Vitamin E), and Peucedanum Graveolens (Dill) Extract, known for improving skin elasticity. The formula also contains stabilizers and preservatives like DMDM Hydantoin, Disodium EDTA, and Iodopropynyl Butylcarbamate to ensure shelf-life and safety.
 ingredients_quality: This formula combines high-quality hydrating agents like Glycerin and Sodium Hyaluronate to provide deep and lasting moisture. It features clinically proven Niacinamide to improve skin tone and texture, along with anti-aging peptides such as Palmitoyl Pentapeptide-4 that support collagen production and firmness. Natural antioxidants from Camellia Sinensis (Green Tea) and Peucedanum Graveolens (Dill) extracts help protect skin from environmental damage. Silicone-based emollients like Dimethicone and Cyclopentasiloxane ensure smooth application and hydration retention, while soothing ingredients like Panthenol and Allantoin reduce irritation. Preservatives and stabilizers maintain product safety and shelf life, though those with very sensitive skin may want to patch-test due to some preservative content. Overall, the formula offers a balanced combination of efficacy and skin comfort for most skin types.

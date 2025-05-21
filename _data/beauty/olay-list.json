@@ -1,11 +1,20 @@
 [
     {
-        "title": "Olay Regenerist Micosculpting Night Cream",
-        "url": "olay/regenerist-micosculpting-night-cream",
+        "title": "Olay Regenerist Microsculpting Night Cream",
+        "url": "olay/regenerist-microsculpting-night-cream",
         "sku": "OLA-B-ORMNC-001",
         "price": "2499",
-        "thumb": "olay/regenerist-micosculpting-night-cream",
+        "thumb": "olay/regenerist-microsculpting-night-cream",
         "category": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer",
         "description": "Don’t let your skin lose its firmness overnight. Restore bounce and glow with Olay Regenerist Night Cream—deep hydration for visible results."
+    },
+    {
+        "title": "Olay Regenerist Microsculpting Day Cream",
+        "url": "olay/regenerist-microsculpting-day-cream",
+        "sku": "OLA-B-ORMDC-002",
+        "price": "2499",
+        "thumb": "olay/regenerist-microsculpting-day-cream",
+        "category": "Health & Beauty > Personal Care > Cosmetics > Skin Care > Lotion & Moisturizer",
+        "description": "Don’t Miss Out: Prevent early signs of aging and loss of firmness before they deepen—start moisturizing now to keep skin youthful and resilient."
     }
 ]
