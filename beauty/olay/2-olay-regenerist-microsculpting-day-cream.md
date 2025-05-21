@@ -13,7 +13,6 @@ ingredients_quality: The ingredients used are generally of high cosmetic grade, 
 based_skin: "Dry Skin: Rich in Hyaluronic Acid and Glycerin, it delivers intense hydration and helps improve skin elasticity throughout the day. <br />Oily Skin: Lightweight and non-comedogenic. Absorbs quickly without leaving a greasy residue, making it ideal for oil-prone skin. <br />Combination Skin: Balances moisture across the face—hydrates dry patches while controlling shine in oily areas. <br />Sensitive Skin: Contains soothing ingredients like Panthenol and Niacinamide to calm skin. Fragrance may be present, so patch test is advised. <br />"
 based_age: "20s: Supports skin barrier and early prevention with Niacinamide and hydration boosters. <br />30s: Targets first signs of aging—fine lines, dullness, and loss of firmness. <br />40s+: Visibly firms and plumps mature skin, reducing wrinkles and improving elasticity. <br />50s+: Deeply hydrates and smooths deeper wrinkles, promoting a lifted, sculpted look. <br />"
 product_line: "Don’t Miss Out: Prevent early signs of aging and loss of firmness before they deepen—start moisturizing now to keep skin youthful and resilient."
-brand: Olay
 usage: Dispense a small amount of product into hands. Add water and work into lather. Massage gently onto face and neck. Rinse thoroughly.
 low_price: 2499
 choose_for: "<b>Quality:</b> High | <b>Age:</b> 25+ | <b>Skin Types:</b> Dry, Normal, Oily, Combination | <b>Effective For:</b> Fine lines, Wrinkles, Firmness, Hydration"
@@ -27,4 +26,4 @@ gpc: 2592
 variants: OLA-B-ORMDC-50GM-002_50 gm_2499
 variant_type: size
 ---
-{% include buy.html description="50 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.jsx1?cc" %}
+{% include buy.html description="50 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.jHtU?cc" %}

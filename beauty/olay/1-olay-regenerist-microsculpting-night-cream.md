@@ -13,7 +13,6 @@ ingredients_quality: This formula combines high-quality hydrating agents like Gl
 based_skin: "Dry Skin: Rich in Hyaluronic Acid and Glycerin, it deeply moisturizes and prevents overnight moisture loss. <br />Oily Skin: Lightweight and non-comedogenic. Absorbs quickly without clogging pores, making it ideal for oil-prone skin. <br />Combination Skin: Balances oil and hydration—hydrates dry areas while keeping oily zones matte and comfortable. <br />Sensitive Skin: Fragrance-free variant available. Niacinamide soothes and strengthens skin without irritation."
 based_age: "25–30: Start early and prevent signs of aging before they show. This cream boosts hydration and strengthens your skin’s natural barrier.<br /> 30–40: Visibly reduce early fine lines and dullness. Supports collagen production and firms tired-looking skin overnight. <br />40–50+: Deeply hydrates and restores skin firmness. Targets visible wrinkles, sagging, and uneven texture with advanced anti-aging ingredients."
 product_line: Overnight, your skin loses hydration and firmness. Olay Regenerist works while you sleep to prevent that loss—wake up looking firmer and younger.
-brand: Olay
 usage: Dispense a small amount of product into hands. Add water and work into lather. Massage gently onto face and neck. Rinse thoroughly.
 low_price: 2499
 choose_for: "<b>Quality:</b> High | <b>Age:</b> 25+ | <b>Skin Types:</b> Dry, Normal, Oily, Combination | <b>Effective For:</b> Fine lines, Wrinkles, Firmness, Hydration"
