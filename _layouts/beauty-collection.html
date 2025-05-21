@@ -11,6 +11,8 @@ layout: compress
 {% assign data = site.data.beauty.cetaphil-list %}
 {% elsif page.title == "Minimalist" %}
 {% assign data = site.data.beauty.minimalist-list %}
+{% elsif page.title == "Olay" %}
+{% assign data = site.data.beauty.olay-list %}
 {% endif %}
 
 <div data-pagefind-meta="image[src]" src="/images/brands/{{page.thumb}}-thumb-430w.webp">
@@ -50,7 +52,8 @@ layout: compress
                                      (min-width: 768px) calc(3/12 * 100vw)" width="225" height="215">
           </div>
           <div class="product-info">
-            <h2 class="mb-2" style="font-size: 16px;"><a href="/{{ item.url }}" class="link-title">{{item.title}}</a>
+            <h2 class="mb-2" style="font-size: 16px; line-height: 20px;"><a href="/{{ item.url }}"
+                class="link-title">{{item.title}}</a>
             </h2>
           </div>
         </div>

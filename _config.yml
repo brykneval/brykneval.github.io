@@ -86,6 +86,17 @@ defaults:
       brand: "Apple"
       meta_keywords: ["Apple", "Laptop Reviews", "macOS", "Reviews", "Tech", "Apple Nepal"]
 
+  -
+    scope:
+      path: "beauty/olay"
+      type: "pages"
+    values:
+      layout: "beauty"
+      about_brand: "Olay is an American brand. For over six decades, we have been leading the way in transformative skin care. Our focus has always been on real people, and we strive to revolutionize the industry with every new innovation and clinical trial. Our ultimate goal is to create effective and accessible skin care options for everyone, using only the highest quality ingredients. To ensure safety, we carefully determine a Safe Range for each ingredient, following guidelines from respected organizations such as the European Union Commission, the World Health Organization, and the National Academy of Sciences."
+      brand: "Olay"
+      brand_info: <div class="row"><div class="col-12"><div class="heading pb-28"><h2>Olay's Mission</h2></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Mirror Moments</h3><p>We inspire you to recognize skin changes and restore your natural radiance.</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Proven Science</h3><p>We offer effective skincare solutions backed by decades of research and innovation.</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Trusted Results</h3><p>We deliver reliable solutions that enhance your beauty and boost your confidence.</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">The Olay Touch</h3><p>We combine expertly crafted skincare combining science and care for results you can feel.</p></div></div></div>
+      meta_keywords: ["Olay", "Olay Regenerist", "Olay Night Cream", "Anti-aging cream", "Moisturizer", "Niacinamide cream", "Hydrating cream", "Skin firming", "Wrinkle reduction", "Peptides", "Hyaluronic Acid", "Skincare", "Facial cream", "Olay moisturizer", "Beauty cream", "Anti-wrinkle", "Skin renewal", "Night moisturizer", "Olay skincare"]
+
 
 # jekyll-sitemap:
 #   exclude:
