@@ -28,4 +28,4 @@ dispenser: Plastic bottle
 variants: CET-L-CBAPC-002-85ML_85 ml_1100
 variant_type: size
 ---
-{% include buy.html description="85 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gjFq?cc" %}
+{% include buy.html description="85 gm" title=page.title button_text="Rs 1,100 from Daraz" link="https://s.daraz.com.np/s.gjFq?cc" %}

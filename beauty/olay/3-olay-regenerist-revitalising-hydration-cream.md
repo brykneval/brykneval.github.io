@@ -26,4 +26,4 @@ gpc: 2592
 variants: OLA-B-ORRHC-50ML-003_50 ml_2099
 variant_type: size
 ---
-{% include buy.html description="50 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.jsx1?cc" %}
+{% include buy.html description="50 ml" title=page.title button_text="Rs 2,099 from Daraz" link="https://s.daraz.com.np/s.jsx1?cc" %}

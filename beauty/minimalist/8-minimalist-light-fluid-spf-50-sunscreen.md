@@ -27,4 +27,4 @@ secondary_img: /images/minimalist/light-fluid-spf-sunscreen-uv-filters
 secondary_img_alt: Minimalist Light Fluid SPF 50 Sunscreen UV Filter
 product_line: One skipped day in the sun can mean years of spots and damage—shield your skin while you can.
 ---
-{% include buy.html description="50 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.goO9?cc" %}
+{% include buy.html description="50 ml" title=page.title button_text="Rs 801 from Daraz" link="https://s.daraz.com.np/s.goO9?cc" %}

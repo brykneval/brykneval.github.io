@@ -26,4 +26,4 @@ dispenser: Plastic Jar
 variants: CET-L-CBBNCC-004-50GM_50 gm_1650
 variant_type: size
 ---
-{% include buy.html description="50 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gbbD?cc" %}
+{% include buy.html description="50 gm" title=page.title button_text="Rs 1,650 from Daraz" link="https://s.daraz.com.np/s.gbbD?cc" %}

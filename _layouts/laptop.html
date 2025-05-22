@@ -134,7 +134,7 @@ layout: compress
             <b>Dimensions (WxDxH):</b> {{firstData.dimensions}}<br />
             <b>Weight:</b> {{firstData.weight}}<br />
             <b>Year:</b> {{firstData.year}}<br />
-            <b>Price:</b> Rs.{{firstData.price}} (${{firstData.price_us}})<br />
+            <b>Official Price:</b> ${{firstData.price_us}}<br />
           </p>
         </div>
       </div>
@@ -338,7 +338,8 @@ layout: compress
           | append: laptop.graphics | append: " | "
           | append: laptop.memory | append: " | "
           | append: laptop.storage %}
-          {% include buy.html description=descriptionData title=laptop.title button_text="Buy from Daraz"
+          {% assign laptopPrice = "Rs " | append: laptop.price_format | append: " from Daraz" %}
+          {% include buy.html description=descriptionData title=laptop.title button_text=laptopPrice
           link=laptop.buy_link %}
         </div>
         {% endfor %}

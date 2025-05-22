@@ -27,4 +27,4 @@ secondary_img: /images/minimalist/niacinamide-body-lotion-ingredients-label
 secondary_img_alt: Minimalist Niacinamide 5% Body Lotion Ingredients Label
 product_line: Don’t let dark spots and rough skin settle in—defend your skin before damage begins.
 ---
-{% include buy.html description="180 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gBw4?cc" %}
+{% include buy.html description="180 gm" title=page.title button_text="Rs 481 from Daraz" link="https://s.daraz.com.np/s.gBw4?cc" %}

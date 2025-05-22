@@ -27,4 +27,4 @@ dispenser: Plastic Jar
 variants: CET-L-CDAUHL-005-100GM_100 gm_1039
 variant_type: size
 ---
-{% include buy.html description="100 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.ggHI?cc" %}
+{% include buy.html description="100 gm" title=page.title button_text="Rs 1,039 from Daraz" link="https://s.daraz.com.np/s.ggHI?cc" %}

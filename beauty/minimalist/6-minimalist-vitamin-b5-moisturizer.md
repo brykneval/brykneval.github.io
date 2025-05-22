@@ -27,4 +27,4 @@ secondary_img: /images/minimalist/vitamin-b5-moisturizer-application-on-girl
 secondary_img_alt: Minimalist Vitamin B5 10% Moisturizer application on girl
 product_line: Skipping deep hydration today could cost you calm, balanced skin tomorrow.
 ---
-{% include buy.html description="50 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gHeh?cc" %}
+{% include buy.html description="50 gm" title=page.title button_text="Rs 561 from Daraz" link="https://s.daraz.com.np/s.gHeh?cc" %}

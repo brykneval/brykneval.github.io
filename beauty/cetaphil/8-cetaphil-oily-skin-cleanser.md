@@ -27,4 +27,4 @@ dispenser: Pump bottle, Bottle
 variants: CET-L-COSC-008-60ML_60 ml_520
 variant_type: size
 ---
-{% include buy.html description="60 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gb4C?cc" %}
+{% include buy.html description="60 ml" title=page.title button_text="Rs 520 from Daraz" link="https://s.daraz.com.np/s.gb4C?cc" %}

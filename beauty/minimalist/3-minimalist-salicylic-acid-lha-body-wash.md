@@ -27,4 +27,4 @@ secondary_img: /images/minimalist/salicylic-acid-lha-body-wash-ingredients-label
 secondary_img_alt: Minimalist Salicylic Acid + LHA 2% Body Wash Ingredients Label
 product_line: Don’t let breakouts take control—clear your skin before they strike.
 ---
-{% include buy.html description="200 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gz6n?cc" %}
+{% include buy.html description="200 ml" title=page.title button_text="Rs 561 from Daraz" link="https://s.daraz.com.np/s.gz6n?cc" %}

@@ -28,4 +28,4 @@ dispenser: Plastic Jar
 variants: CET-L-CMC-006-250GM_250 gm_2160
 variant_type: size
 ---
-{% include buy.html description="250 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gjC2?cc" %}
+{% include buy.html description="250 gm" title=page.title button_text="Rs 2,160 from Daraz" link="https://s.daraz.com.np/s.gjC2?cc" %}

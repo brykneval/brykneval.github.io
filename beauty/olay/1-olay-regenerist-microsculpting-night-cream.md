@@ -26,4 +26,4 @@ gpc: 2592
 variants: OLA-B-ORMNC-50GM-001_50 gm_2499
 variant_type: size
 ---
-{% include buy.html description="50 gm" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.js7a?cc" %}
+{% include buy.html description="50 gm" title=page.title button_text="Rs 2,499 from Daraz" link="https://s.daraz.com.np/s.js7a?cc" %}

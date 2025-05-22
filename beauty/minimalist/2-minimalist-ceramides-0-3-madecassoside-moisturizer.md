@@ -27,4 +27,4 @@ gpc: 2592
 variants: MIN-L-MCMM-002-30GM_30 gm_960
 variant_type: size
 ---
-{% include buy.html description="30 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.T7T0?cc" %}
+{% include buy.html description="30 ml" title=page.title button_text="Rs 960 from Daraz" link="https://s.daraz.com.np/s.T7T0?cc" %}

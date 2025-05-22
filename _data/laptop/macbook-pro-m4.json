@@ -49,6 +49,7 @@
             "material": "Aluminum",
             "year": "2024",
             "price": 339000,
+            "price_format": "3,39,000",
             "price_us": 1999,
             "rating": 4.8,
             "rating_count": 714,

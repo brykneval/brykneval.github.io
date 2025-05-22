@@ -27,4 +27,4 @@ gpc: 2844
 variants: CET-S-CSS5G-001-50ML_50 ml_1750
 variant_type: size
 ---
-{% include buy.html description="50 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gadJ?cc" %}
+{% include buy.html description="50 ml" title=page.title button_text="Rs 1,750 from Daraz" link="https://s.daraz.com.np/s.gadJ?cc" %}

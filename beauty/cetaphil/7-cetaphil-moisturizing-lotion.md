@@ -27,4 +27,4 @@ dispenser: Pump bottle, Bottle
 variants: CET-L-CML-007-400ML_400 ml_1300
 variant_type: size
 ---
-{% include buy.html description="4000 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gi9S?cc" %}
+{% include buy.html description="4000 ml" title=page.title button_text="Rs 1,300 from Daraz" link="https://s.daraz.com.np/s.gi9S?cc" %}

@@ -28,4 +28,4 @@ gpc: 2592
 variants: MIN-L-MABES-001-30ML_30 ml_961
 variant_type: size
 ---
-{% include buy.html description="30 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.Tice?cc" %}
+{% include buy.html description="30 ml" title=page.title button_text="Rs 961 from Daraz" link="https://s.daraz.com.np/s.Tice?cc" %}

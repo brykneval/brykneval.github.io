@@ -16,6 +16,7 @@ sku: MIN-L-MRFS-007
 fragnance: Fragnance free
 dispenser: Plastic container
 gpc: 2592
+price: 961
 variants: MIN-L-MRFS-007-30ML_30 ml_961
 variant_type: size
 permalink: minimalist/retinol-face-serum
@@ -27,4 +28,4 @@ secondary_img: /images/minimalist/retinol-face-serum-ingredients-label
 secondary_img_alt: Minimalist Retinol 0.3% Face Serum Ingredients Label
 product_line: Ignoring early signs of aging now may leave you chasing results later.
 ---
-{% include buy.html description="30 ml" title=page.title button_text="Buy from Daraz" link="https://s.daraz.com.np/s.gKT7?cc" %}
+{% include buy.html description="30 ml" title=page.title button_text="Rs 961 from Daraz" link="https://s.daraz.com.np/s.gKT7?cc" %}
