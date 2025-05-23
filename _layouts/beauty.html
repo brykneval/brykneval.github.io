@@ -285,6 +285,22 @@ layout: compress
   },
   "sku": "{{page.sku}}",
   "category": "{{page.meta_category}}",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.1",
+    "reviewCount": "2696"
+  },
+  "review": { 
+    "@type": "Review",
+    "author": {
+      "@type": "Organization",
+      "name": "jhuppo"
+    },
+    "datePublished": "{{page.published_date_ISO}}",
+    "dateModified": "{{page.modified_date_ISO}}",
+    "reviewBody": "{{page.review}}",
+    "name": "{{page.title}} review"
+  },
   "hasVariant": 
   [
     {% assign items = page.variants | split: "," %}
