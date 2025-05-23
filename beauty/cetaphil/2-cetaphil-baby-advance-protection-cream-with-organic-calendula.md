@@ -27,5 +27,11 @@ fragnance: Fragnance Free
 dispenser: Plastic bottle
 variants: CET-L-CBAPC-002-85ML_85 ml_1100
 variant_type: size
+rating: 4.3
+rating_count: 1177
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Cetaphil Baby Advanced Protection Cream, we found it to be a gentle and effective moisturizer for infants and toddlers with dry or sensitive skin. The rich, hypoallergenic formula combines organic calendula, shea butter, glycerin, and vitamin E to soothe, hydrate, and protect delicate skin. It absorbs quickly without leaving a greasy residue, making it suitable for daily use on areas prone to dryness, such as cheeks, elbows, knees, and diaper regions. Parents have reported that it helps reduce irritation and discomfort associated with very dry or chafed skin, providing nourishment for up to 8 hours. Dermatologist and pediatrician tested, the cream is free from parabens, mineral oils, and fragrances, ensuring safety for newborns and toddlers. For optimal results, apply a thin layer to clean, dry skin once or twice daily, or as needed. Overall, this cream is a reliable choice for maintaining soft, healthy skin in babies and young children.
 ---
 {% include buy.html description="85 gm" title=page.title button_text="Rs 1,100 from Daraz" link="https://s.daraz.com.np/s.gjFq?cc" %}

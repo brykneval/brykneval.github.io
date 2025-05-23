@@ -26,5 +26,11 @@ title_img_alt: Minimalist Salicylic Acid + LHA 2% Body Wash
 secondary_img: /images/minimalist/salicylic-acid-lha-body-wash-ingredients-label
 secondary_img_alt: Minimalist Salicylic Acid + LHA 2% Body Wash Ingredients Label
 product_line: Don’t let breakouts take control—clear your skin before they strike.
+rating: 4.2
+rating_count: 1480
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After trying the Minimalist Salicylic Acid + LHA 2% Body Wash, we found it to be a solid choice for tackling body acne and rough skin texture, especially on the back, shoulders, and arms. The combination of 2% salicylic acid and LHA works effectively to unclog pores and gently exfoliate dead skin cells without being overly drying. With consistent use a few times a week, skin felt smoother and clearer, and bumps like keratosis pilaris appeared reduced. The formula also includes niacinamide and glycerin, which help maintain hydration and calm the skin. We recommend using it in the shower on wet skin, letting it sit for a minute before rinsing, and following up with a body moisturizer to avoid dryness. It’s a great addition to a targeted body care routine, especially for those dealing with oily or acne-prone skin. Sensitive skin types should start slow to see how their skin responds.
 ---
 {% include buy.html description="200 ml" title=page.title button_text="Rs 561 from Daraz" link="https://s.daraz.com.np/s.gz6n?cc" %}

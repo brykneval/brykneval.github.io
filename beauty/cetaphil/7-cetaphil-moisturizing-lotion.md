@@ -26,5 +26,11 @@ fragnance: Lightly scented
 dispenser: Pump bottle, Bottle
 variants: CET-L-CML-007-400ML_400 ml_1300
 variant_type: size
+rating: 4.3
+rating_count: 13709
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Cetaphil Moisturizing Lotion, we found it to be a reliable, everyday moisturizer suitable for dry and sensitive skin. The lightweight, non-greasy formula absorbs quickly without leaving a sticky residue, making it ideal for daily use on both the face and body. Formulated with glycerin, macadamia nut oil, and vitamin E, it helps strengthen the skin barrier, lock in moisture, and soothe irritation. Dermatologist-tested and fragrance-free, this lotion is particularly beneficial for those with eczema, rosacea, or dehydrated skin. Users have reported that it effectively alleviates dryness and tightness, leaving the skin feeling soft and smooth without any greasy residue. For optimal results, apply generously to clean, dry skin as part of your daily skincare routine. Overall, this lotion offers reliable hydration and skin barrier support, making it a solid choice for individuals with dry and sensitive skin.
 ---
 {% include buy.html description="4000 ml" title=page.title button_text="Rs 1,300 from Daraz" link="https://s.daraz.com.np/s.gi9S?cc" %}

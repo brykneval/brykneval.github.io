@@ -26,5 +26,11 @@ title_img_alt: Minimalist Light Fluid SPF 50 Sunscreen
 secondary_img: /images/minimalist/light-fluid-spf-sunscreen-uv-filters
 secondary_img_alt: Minimalist Light Fluid SPF 50 Sunscreen UV Filter
 product_line: One skipped day in the sun can mean years of spots and damage—shield your skin while you can.
+rating: 4.2
+rating_count: 786
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Minimalist Light Fluid SPF 50 Sunscreen, we found it to be an excellent daily option for broad-spectrum sun protection, particularly well-suited for oily and combination skin types. The lightweight, water-based formula absorbs quickly, leaving a matte finish without any white cast, making it ideal for layering under makeup or for those who prefer a non-greasy feel. Formulated with advanced UV filters like Uvinul A Plus and Tinosorb M, it offers effective defense against both UVA and UVB rays, ensuring comprehensive protection. The inclusion of hydrating agents like butylene glycol and dimethicone helps maintain skin moisture without clogging pores, making it suitable for acne-prone individuals. Fragrance-free and non-comedogenic, this sunscreen minimizes the risk of irritation, even for sensitive skin. With consistent use, we observed that it effectively prevents sun-induced damage without causing breakouts or excessive shine. For optimal results, apply it 20 minutes before sun exposure and reapply every 2–3 hours when outdoors. Overall, it's a reliable and skin-friendly choice for daily sun protection.
 ---
 {% include buy.html description="50 ml" title=page.title button_text="Rs 801 from Daraz" link="https://s.daraz.com.np/s.goO9?cc" %}

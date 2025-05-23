@@ -25,6 +25,11 @@ layout: compress
       <div class="col-md-6 align-self-center text-center text-md-left">
         <div class="block">
           <h1 class="mb-4">{{ page.title }}</h1>
+          <p class="stars" style="--rating: {{ page.rating }};"
+            aria-label="Rating of this product is {{ page.rating }} out of 5."
+            title="{{page.rating}} ({{page.rating_count}})"></p>
+          <span>&nbsp;|&nbsp;{{page.rating}} stars ({{page.rating_count}}
+            reviews)</span><span>&nbsp;|&nbsp;{{page.rating_from}}</span>
           <p class="mb-4">{{ page.product_line }}</p>
           <p class="mb-4">{{ page.title_description }}</p>
           <a href="/{{page.brand | downcase}}" class="btn btn-main" title="Browse All {{page.brand}} Products">Browse
@@ -60,6 +65,8 @@ layout: compress
                 {{page.brand}} stands for</a></h3>
             <h3 class=""><a class="link-title" href="#sectionUsage" title="Usage">How to use</a></h3>
             <h3 class=""><a class="link-title" href="#sectionBeforeYouBuy" title="Before you buy">Before you buy</a>
+            </h3>
+            <h3 class=""><a class="link-title" href="#sectionReview" title="Our Review">Our say</a>
             </h3>
             <h3 class=""><a class="link-title" href="#sectionBuy" title="Want to buy">Want to buy</a></h3>
             <h3 class=""><a class="link-title" href="#sectionAbout" title="About {{page.brand}}">About
@@ -189,6 +196,19 @@ layout: compress
     </div>
   </section>
 
+  <section class="section" id="sectionReview">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="heading pb-28">
+            <h2>Our Say</h2>
+            <p>{{page.review}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section" id="sectionBuy">
     <div class="container">
       <div class="col-md-12 mb-3">
@@ -291,6 +311,22 @@ layout: compress
             "@type": "Organization",
             "name": "Jhuppo"
           }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.1",
+          "reviewCount": "2696"
+        },
+        "review": { 
+          "@type": "Review",
+          "author": {
+            "@type": "Organization",
+            "name": "jhuppo"
+          },
+          "datePublished": "{{page.published_date_ISO}}",
+          "dateModified": "{{page.modified_date_ISO}}",
+          "reviewBody": "{{page.review}}",
+          "name": "{{page.title}} review"
         }
     }
     {% if forloop.last %}
@@ -332,7 +368,7 @@ layout: compress
 {
   "@context": "https://schema.org",
   "@type": "NewsArticle",
-  "headline": "{{page.title}}",
+  "headline": "{{page.title}} Review",
   "description": "{{page.product_line}}",
   "datePublished": "2025-05-05T14:00:00+00:00",
   "dateModified": "",
@@ -368,7 +404,7 @@ layout: compress
       "url": "{{ site.url }}{{page.secondary_img}}-1280w.webp"
     }
   ],
-  "articleBody": "{{page.title_description | strip_html}} {{page.ingredients | strip_html}} {{page.ingredients_summary | strip_html}} {{page.ingredients_quality | strip_html}} {{page.based_skin | strip_html}} {{page.based_age | strip_html}} {{page.usage | strip_html}} {{page.choose_for | strip_html}} {{page.avoid_if | strip_html}}"
+  "articleBody": "{{page.title_description | strip_html}} {{page.ingredients | strip_html}} {{page.ingredients_summary | strip_html}} {{page.ingredients_quality | strip_html}} {{page.based_skin | strip_html}} {{page.based_age | strip_html}} {{page.usage | strip_html}} {{page.choose_for | strip_html}} {{page.avoid_if | strip_html}} {{page.review | strip_html}}"
 },
 {
   "@context": "https://schema.org",

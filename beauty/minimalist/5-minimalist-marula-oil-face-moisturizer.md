@@ -26,5 +26,11 @@ title_img_alt: Minimalist Marula Oil 5% Face Moisturizer
 secondary_img: /images/minimalist/marula-oil-face-moisturizer-ingredients-label
 secondary_img_alt: Minimalist Marula Oil 5% Face Moisturizer Ingredients Label
 product_line: Missing hydration now can mean fine lines sooner—protect your glow while you can.
+rating: 4.2
+rating_count: 5365
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Minimalist Marula Oil 5% Face Moisturizer, we found it to be a deeply nourishing option for those with dry or sensitive skin. The rich, fragrance-free formula combines 5% marula oil with hydrating ingredients like hyaluronic acid, glycerin, and saccharide isomerate, delivering immediate relief to areas prone to flakiness and tightness. Upon application, the moisturizer feels slightly heavy and leaves a dewy finish, which may not suit oily or acne-prone skin types. However, for dry skin, it effectively restores softness and suppleness overnight. With consistent use, we observed improved skin texture and reduced dryness. It's best applied as the final step in your evening routine, allowing it to fully absorb overnight. Given its rich composition, we recommend patch testing for those with sensitive skin. Overall, this moisturizer stands out as a reliable choice for intense hydration and skin barrier support.
 ---
 {% include buy.html description="50 gm" title=page.title button_text="Rs 561 from Daraz" link="https://s.daraz.com.np/s.gv3N?cc" %}

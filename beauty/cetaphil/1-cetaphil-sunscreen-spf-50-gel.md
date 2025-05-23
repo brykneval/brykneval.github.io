@@ -26,5 +26,11 @@ dispenser: Pump bottle, Tube
 gpc: 2844
 variants: CET-S-CSS5G-001-50ML_50 ml_1750
 variant_type: size
+rating: 4.1
+rating_count: 2657
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Cetaphil Sun SPF 50+ Light Gel, we found it to be a reliable daily sunscreen offering high broad-spectrum protection, particularly suitable for sensitive and combination skin types. The lightweight, gel-based formula absorbs quickly without leaving a white cast, making it ideal for layering under makeup or for those who prefer a non-greasy feel. Formulated with advanced UV filters like Tinosorb S and Uvinul A Plus, it provides effective defense against both UVA and UVB rays. The inclusion of vitamin E offers antioxidant benefits, while the fragrance-free and non-comedogenic nature minimizes the risk of irritation, even for sensitive skin. However, some users have reported a slightly oily finish, especially in humid conditions, suggesting it may be more suitable for cooler climates or indoor use. For optimal results, apply it 20 minutes before sun exposure and reapply every 2–3 hours when outdoors. Overall, it's a dependable choice for daily sun protection, balancing efficacy with skin-friendly ingredients.
 ---
 {% include buy.html description="50 ml" title=page.title button_text="Rs 1,750 from Daraz" link="https://s.daraz.com.np/s.gadJ?cc" %}

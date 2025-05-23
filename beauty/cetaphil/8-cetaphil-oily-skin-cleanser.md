@@ -26,5 +26,11 @@ fragnance: Lightly scented
 dispenser: Pump bottle, Bottle
 variants: CET-L-COSC-008-60ML_60 ml_520
 variant_type: size
+rating: 4.3
+rating_count: 12775
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Cetaphil Oily Skin Cleanser, we found it to be a gentle yet effective option for those with oily and acne-prone skin. Formulated with a blend of niacinamide and panthenol, it helps soothe and strengthen the skin barrier while effectively removing excess oil, dirt, and impurities. The low-lather gel formula cleanses without stripping the skin's natural moisture, leaving it feeling refreshed and balanced. It's dermatologist-tested, non-comedogenic, and suitable for daily use. Some users have noted a slight tackiness upon application, but this dissipates quickly. For optimal results, use morning and night, followed by a suitable moisturizer. Overall, this cleanser offers a reliable solution for managing oily skin without compromising skin health.
 ---
 {% include buy.html description="60 ml" title=page.title button_text="Rs 520 from Daraz" link="https://s.daraz.com.np/s.gb4C?cc" %}

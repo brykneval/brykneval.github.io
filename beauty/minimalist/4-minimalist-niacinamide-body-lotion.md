@@ -26,5 +26,11 @@ title_img_alt: Minimalist Niacinamide 5% Body Lotion
 secondary_img: /images/minimalist/niacinamide-body-lotion-ingredients-label
 secondary_img_alt: Minimalist Niacinamide 5% Body Lotion Ingredients Label
 product_line: Don’t let dark spots and rough skin settle in—defend your skin before damage begins.
+rating: 4.2
+rating_count: 1198
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Minimalist Niacinamide Body Lotion, we found it to be a gentle yet effective daily moisturizer for improving skin tone, hydration, and overall smoothness. With 5% niacinamide and 7% glycerin, the formula helps brighten dull areas, reduce uneven patches, and reinforce the skin barrier without feeling heavy or sticky. The lotion spreads easily and absorbs quickly, making it convenient for both morning and evening routines. We noticed visible improvements in texture and pigmentation—especially on arms and legs—after consistent use over two weeks. Its calming blend, including oat extract and shea butter, makes it suitable even for sensitive or post-shave skin. While fragrance-free, it still feels nourishing and soothing, especially when applied on clean, slightly damp skin. For best results, we recommend using it daily and pairing it with sunscreen during the day to protect and maintain skin clarity. Overall, it's a reliable and skin-friendly option for anyone looking to brighten, even out, and hydrate their body skin.
 ---
 {% include buy.html description="180 gm" title=page.title button_text="Rs 481 from Daraz" link="https://s.daraz.com.np/s.gBw4?cc" %}

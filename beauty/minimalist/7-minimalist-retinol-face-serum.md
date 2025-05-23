@@ -27,5 +27,11 @@ title_img_alt: Minimalist Retinol 0.3% Face Serum
 secondary_img: /images/minimalist/retinol-face-serum-ingredients-label
 secondary_img_alt: Minimalist Retinol 0.3% Face Serum Ingredients Label
 product_line: Ignoring early signs of aging now may leave you chasing results later.
+rating: 4.2
+rating_count: 6399
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Minimalist Retinol 0.3% Face Serum, we found it to be a beginner-friendly option for those looking to incorporate retinol into their nighttime skincare routine. Formulated with 0.3% retinol and Coenzyme Q10 in a squalane base, the serum aims to reduce fine lines, improve skin texture, and promote a more even skin tone. Upon application, the serum has an oily texture due to the squalane, which absorbs over time and leaves the skin feeling nourished. Some users have reported a slight tingling sensation during initial use, which is common with retinol products, but it typically subsides as the skin builds tolerance. With consistent use over several weeks, we observed smoother skin and a reduction in the appearance of fine lines. However, individuals with oily or acne-prone skin may find the squalane base a bit heavy, so it's advisable to start with a patch test and use it sparingly. For optimal results, apply the serum at night on clean, dry skin, followed by a moisturizer, and always use sunscreen during the day to protect the skin. Overall, this serum is a solid choice for those new to retinol, offering noticeable improvements in skin texture and tone with regular use.
 ---
 {% include buy.html description="30 ml" title=page.title button_text="Rs 961 from Daraz" link="https://s.daraz.com.np/s.gKT7?cc" %}

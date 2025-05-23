@@ -27,5 +27,11 @@ dispenser: Glass bottle
 gpc: 2592
 variants: MIN-L-MABES-001-30ML_30 ml_961
 variant_type: size
+rating: 4.1
+rating_count: 2696
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Minimalist AHA BHA Face Exfoliator, we found it to be an effective weekly treatment for improving skin texture and clarity. The 25% AHA and 2% BHA blend delivers a noticeable glow after just one or two uses, helping to unclog pores and smooth out rough patches. While the tingling sensation during application is expected with such high actives, it wasn’t uncomfortable and faded quickly. With consistent use (about once a week), we saw reduced blackheads and a more even tone, especially on areas with congestion. It’s best suited for nighttime use, followed by a calming moisturizer. We recommend applying it on clean, dry skin and always using sunscreen the next day, as exfoliation increases sun sensitivity. This is a strong exfoliant, so sensitive skin types should patch test first or start slowly. Overall, a powerful option for those looking to brighten dull skin and keep breakouts in check.
 ---
 {% include buy.html description="30 ml" title=page.title button_text="Rs 961 from Daraz" link="https://s.daraz.com.np/s.Tice?cc" %}

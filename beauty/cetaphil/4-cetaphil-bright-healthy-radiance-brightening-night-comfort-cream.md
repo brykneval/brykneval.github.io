@@ -25,5 +25,11 @@ fragnance: Lightly scented
 dispenser: Plastic Jar
 variants: CET-L-CBBNCC-004-50GM_50 gm_1650
 variant_type: size
+rating: 4.1
+rating_count: 3214
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Cetaphil Bright Healthy Radiance Brightening Night Comfort Cream, we found it to be a gentle yet effective option for those seeking to brighten and even out their skin tone overnight. Formulated with 2% niacinamide and natural sea daffodil extract, the cream works synergistically to reduce the appearance of dark spots and enhance skin radiance without compromising the skin barrier. The inclusion of glycerin and hyaluronic acid provides deep hydration, leaving the skin feeling plump and nourished by morning. Its lightweight, non-greasy texture absorbs quickly, making it suitable for layering with other nighttime treatments. Dermatologist-developed and fragrance-free, it's particularly beneficial for sensitive skin types. With consistent use, many users have reported noticeable improvements in skin brightness and texture. For optimal results, apply a generous layer to clean, dry skin before bedtime. Overall, this night cream offers a soothing and effective solution for those looking to achieve a more luminous complexion.
 ---
 {% include buy.html description="50 gm" title=page.title button_text="Rs 1,650 from Daraz" link="https://s.daraz.com.np/s.gbbD?cc" %}

@@ -26,5 +26,11 @@ fragnance: Lightly scented
 dispenser: Plastic Jar
 variants: CET-L-CDAUHL-005-100GM_100 gm_1039
 variant_type: size
+rating: 4.2
+rating_count: 11232
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Cetaphil Daily Advance Ultra Hydrating Lotion, we found it to be a deeply nourishing option for dry and sensitive skin. Formulated with a blend of niacinamide, panthenol, and glycerin, this lotion helps to improve the skin's resilience and provides 48-hour hydration. The inclusion of shea butter and macadamia seed oil offers additional emollient benefits, leaving the skin feeling soft and smooth. Its non-greasy, fragrance-free formula is suitable for both face and body, making it versatile for daily use. Dermatologist-tested and hypoallergenic, it's designed to be gentle on sensitive skin. Users have reported that it effectively relieves dryness and tightness, restoring comfort to the skin. For optimal results, apply generously to clean, dry skin as part of your daily skincare routine. Overall, this lotion is a reliable choice for those seeking long-lasting hydration and skin barrier support.
 ---
 {% include buy.html description="100 gm" title=page.title button_text="Rs 1,039 from Daraz" link="https://s.daraz.com.np/s.ggHI?cc" %}

@@ -26,5 +26,11 @@ title_img_alt: Minimalist Vitamin B5 10% Moisturizer
 secondary_img: /images/minimalist/vitamin-b5-moisturizer-application-on-girl
 secondary_img_alt: Minimalist Vitamin B5 10% Moisturizer application on girl
 product_line: Skipping deep hydration today could cost you calm, balanced skin tomorrow.
+rating: 4.1
+rating_count: 8812
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After testing the Minimalist Vitamin B5 10% Moisturizer, we found it to be a hydrating and barrier-repairing option, particularly suitable for oily and combination skin types. The formula features 10% panthenol (vitamin B5), known for its ability to attract and retain moisture, alongside minerals like zinc, copper, and magnesium, which support skin healing and reduce inflammation. Upon application, the moisturizer provides immediate hydration, leaving the skin feeling plump and soothed. However, some users have noted a tacky or sticky finish, especially when layered with other products or applied in larger amounts. This texture may be more noticeable during daytime use, making it potentially more suitable for nighttime routines. Despite this, the moisturizer effectively calms irritation and strengthens the skin barrier over time. For best results, we recommend applying a pea-sized amount to clean, dry skin, allowing it to absorb fully before layering additional products. Overall, this moisturizer offers deep hydration and skin barrier support, though those sensitive to a tacky finish may prefer using it in the evening or exploring alternative options.
 ---
 {% include buy.html description="50 gm" title=page.title button_text="Rs 561 from Daraz" link="https://s.daraz.com.np/s.gHeh?cc" %}

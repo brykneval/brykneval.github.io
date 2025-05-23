@@ -26,5 +26,11 @@ dispenser: Plastic container
 gpc: 2592
 variants: MIN-L-MCMM-002-30GM_30 gm_960
 variant_type: size
+rating: 4.2
+rating_count: 1201
+rating_from: Amazon.in
+published_date_ISO: "2025-05-03T14:00:00+00:00"
+modified_date_ISO: "2025-05-23T18:00:00+00:00"
+review: After trying the Minimalist Ceramides 0.3% + Madecassoside Moisturizer, we found it to be a solid, no-fuss barrier-repair cream that does exactly what it claims. The texture is lightweight but rich enough to leave the skin feeling nourished, especially if you have dry or irritated skin. Within a few days, we noticed reduced redness and less tightness after cleansing. The madecassoside clearly helps with soothing inflammation, and the ceramides offer lasting hydration without feeling greasy. It's best used in a simple routine — cleanser, serum (optional), then this moisturizer. Oily skin users might find it a bit heavy during the day, but it works great as a night cream. Overall, a reliable pick for anyone dealing with compromised skin or looking to strengthen their skin barrier.
 ---
 {% include buy.html description="30 ml" title=page.title button_text="Rs 960 from Daraz" link="https://s.daraz.com.np/s.T7T0?cc" %}
