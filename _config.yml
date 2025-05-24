@@ -97,6 +97,17 @@ defaults:
       brand_info: <div class="row"><div class="col-12"><div class="heading pb-28"><h2>Olay's Mission</h2></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Mirror Moments</h3><p>We inspire you to recognize skin changes and restore your natural radiance.</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Proven Science</h3><p>We offer effective skincare solutions backed by decades of research and innovation.</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">Trusted Results</h3><p>We deliver reliable solutions that enhance your beauty and boost your confidence.</p></div></div><div class="col-md-3"><div class="mb-40 text-md-left"><h3 class="mb-2">The Olay Touch</h3><p>We combine expertly crafted skincare combining science and care for results you can feel.</p></div></div></div>
       meta_keywords: ["Olay", "Olay Regenerist", "Olay Night Cream", "Anti-aging cream", "Moisturizer", "Niacinamide cream", "Hydrating cream", "Skin firming", "Wrinkle reduction", "Peptides", "Hyaluronic Acid", "Skincare", "Facial cream", "Olay moisturizer", "Beauty cream", "Anti-wrinkle", "Skin renewal", "Night moisturizer", "Olay skincare"]
 
+  -
+    scope:
+      path: "beauty/cosrx"
+      type: "pages"
+    values:
+      layout: "beauty"
+      about_brand: "COSRX is a South Korean skincare brand known for its effective formulations that focus on problem-solving ingredients. With a commitment to quality, COSRX combines innovative technology with natural components to create products suitable for various skin types. The brand emphasizes transparency, offering clean formulations that prioritize the skin's health and balance. COSRX has gained popularity globally for its focus on acne treatment and hydration solutions, making it a favorite among skincare enthusiasts."
+      brand: "COSRX"
+      brand_info: <div class="row"><div class="col-12"><div class="heading pb-28"><h2>COSRX values</h2></div></div><div class="col-md-12">COSRX aims for “Friendly Derma Cosmetics“. Our products present professional and effective skincare solutions familiarly and casually. With proven ingredients and original research, we make the best prescriptions for our consumer's skin and daily routine. “Cosmetics+RX(Prescription)=COSRX“ was founded in 2013.</div></div>
+      meta_keywords: ["COSRX", "COSRX sunscreen", "aloe soothing sun cream", "SPF 50 sunscreen", "PA+++", "sun protection", "broad spectrum sunscreen", "lightweight sunscreen", "hydrating sunscreen", "aloe vera sunscreen", "sensitive skin sunscreen", "oily skin sunscreen", "dry skin sunscreen", "combination skin sunscreen", "Korean skincare", "K-beauty", "facial sunscreen", "daily sun protection", "non-greasy sunscreen"]
+
 
 # jekyll-sitemap:
 #   exclude:
