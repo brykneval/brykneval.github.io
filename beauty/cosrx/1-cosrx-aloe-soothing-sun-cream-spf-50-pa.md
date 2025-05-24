@@ -1,11 +1,11 @@
 ---
 title: "Cosrx Aloe Soothing Sun Cream SPF 50+ PA+++"
-permalink: cosrx/cosrx-aloe-soothing-sun-cream-spf-50-pa
+permalink: cosrx/aloe-soothing-sun-cream-spf-50-pa
 meta_description: "COSRX Aloe Soothing Sun Cream SPF 50+ PA+++ offers broad-spectrum sun protection for all skin types—dry, oily, sensitive, and combination."
 title_description: "COSRX Aloe Soothing Sun Cream SPF 50+ PA+++ is a lightweight, deeply hydrating sunscreen that protects against harmful UVA and UVB rays with SPF 50+ PA+++. Enriched with Aloe Vera Extract, it soothes and moisturizes the skin while preventing sun damage. Its non-greasy, fast-absorbing formula leaves no white cast, making it perfect for daily use under makeup or on its own. Suitable for all skin types, this sunscreen keeps your skin calm, refreshed, and well-protected throughout the day, ensuring a healthy, glowing complexion."
-title_img: /images/cosrx/cosrx-aloe-soothing-sun-cream-spf-50-pa
+title_img: /images/cosrx/aloe-soothing-sun-cream-spf-50-pa
 title_img_alt: "Cosrx Aloe Soothing Sun Cream SPF 50+ PA+++"
-secondary_img: /images/cosrx/cosrx-aloe-soothing-sun-cream-spf-50-pa-model
+secondary_img: /images/cosrx/aloe-soothing-sun-cream-spf-50-pa-model
 secondary_img_alt: "Cosrx Aloe Soothing Sun Cream SPF 50+ PA+++ Model Holding"
 ingredients: "Water, ethylhexyl methoxycinnamate, glycerin, propylene glycol, cyclopentasiloxane, phenylbenzimidazole sulfonic acid, bis-ethylhexyloxyphenol methoxyphenyl triazine, dicaprylyl carbonate, isoamyl p-methoxycinnamate, potassium cetyl phosphate, alcohol, dimethicone, butylene glycol, glyceryl stearate, titanium dioxide, c14-22 alcohols, polymethyl methacrylate, cetearyl alcohol, peg-100 stearate, triethanolamine, silica, sodium hydroxide, dimethicone/vinyl dimethicone crosspolymer, c12-20 alkyl glucoside, aluminum hydroxide, stearic acid, fragrance, caprylyl glycol, phenoxyethanol, acrylates/c10-30 alkyl acrylate crosspolymer, aloe arborescens leaf extract, dipotassium glycyrrhizate, carbomer, xanthan gum, limonene, tocopheryl acetate, disodium edta, hexyl cinnamal, linalool, benzyl salicylate, geraniol, benzyl alcohol, citronellol, benzyl benzoate, citral."
 ingredients_summary: "The Cosrx Aloe Soothing Sun Cream SPF 50+ PA+++ contains a combination of UV filters like Ethylhexyl Methoxycinnamate and Titanium Dioxide for broad-spectrum sun protection. Aloe Arborescens Leaf Extract and Glycerin provide hydration and soothing benefits, while Dimethicone and Cyclopentasiloxane ensure a smooth, non-greasy texture. Additional ingredients like Tocopheryl Acetate (Vitamin E) offer antioxidant support, and Fragrance and botanical extracts enhance the sensory experience."
