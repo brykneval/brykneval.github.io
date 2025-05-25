@@ -169,11 +169,7 @@ a:active {
   text-transform: capitalize;
 }
 
-.heading p {
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: 300;
-}
+.heading p {}
 
 .subheading {
   padding-bottom: 15px;
