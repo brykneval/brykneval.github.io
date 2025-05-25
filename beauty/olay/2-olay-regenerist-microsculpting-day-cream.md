@@ -25,5 +25,11 @@ dispenser: Glass Jar
 gpc: 2592
 variants: OLA-B-ORMDC-50GM-002_50 gm_2499
 variant_type: size
+rating: 4.1
+rating_count: 4709
+rating_from: Amazon.in
+published_date_ISO: "2025-05-22T14:00:00+00:00"
+modified_date_ISO: "2025-05-25T18:00:00+00:00"
+review: After testing the Olay Regenerist Micro-Sculpting Day Cream, we found it to be a versatile daily moisturizer that combines hydration with anti-aging benefits. Formulated with key ingredients like niacinamide (vitamin B3), palmitoyl pentapeptide-4, and hyaluronic acid, this cream works to improve skin elasticity, reduce the appearance of fine lines, and enhance overall skin texture. The inclusion of SPF 30 provides essential sun protection, making it suitable for daytime use. Its lightweight, non-greasy texture absorbs quickly, allowing for seamless application under makeup. Users have reported noticeable improvements in skin firmness and hydration within a few weeks of consistent use. However, individuals with sensitive skin may want to perform a patch test, as some have noted mild irritation. For optimal results, apply the cream evenly to the face and neck each morning after cleansing. Overall, this day cream offers a balanced approach to daily skincare, providing both moisture and protection against environmental stressors.
 ---
 {% include buy.html description="50 gm" title=page.title button_text="Rs 2,499 from Daraz" link="https://s.daraz.com.np/s.jHtU?cc" %}

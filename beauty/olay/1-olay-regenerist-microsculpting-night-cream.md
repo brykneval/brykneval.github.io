@@ -25,5 +25,11 @@ dispenser: Glass Jar
 gpc: 2592
 variants: OLA-B-ORMNC-50GM-001_50 gm_2499
 variant_type: size
+rating: 4.1
+rating_count: 4712
+rating_from: Amazon.in
+published_date_ISO: "2025-05-22T14:00:00+00:00"
+modified_date_ISO: "2025-05-25T18:00:00+00:00"
+review: After testing the Olay Regenerist Micro-Sculpting Night Cream, we found it to be a potent overnight moisturizer that effectively hydrates and revitalizes the skin. Formulated with key ingredients like niacinamide (vitamin B3), palmitoyl pentapeptide-4, hyaluronic acid, and green tea extract, this cream works synergistically to improve skin elasticity, reduce fine lines, and enhance overall texture. The rich, creamy texture absorbs well without leaving a greasy residue, making it suitable for various skin types, including dry, combination, and oily skin. Users have reported waking up to plumper, more radiant skin, with noticeable improvements in firmness and hydration over time. However, some individuals with sensitive skin have noted mild irritation, suggesting a patch test before full application. For optimal results, apply a generous amount to clean, dry skin each night, allowing the formula to work overnight. Overall, this night cream offers a balanced blend of hydration and anti-aging benefits, making it a valuable addition to a nighttime skincare routine.
 ---
 {% include buy.html description="50 gm" title=page.title button_text="Rs 2,499 from Daraz" link="https://s.daraz.com.np/s.js7a?cc" %}

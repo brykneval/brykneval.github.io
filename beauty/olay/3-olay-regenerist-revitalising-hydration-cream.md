@@ -25,5 +25,11 @@ dispenser: Glass Jar
 gpc: 2592
 variants: OLA-B-ORRHC-50ML-003_50 ml_2099
 variant_type: size
+rating: 4.3
+rating_count: 273
+rating_from: Amazon.in
+published_date_ISO: "2025-05-22T14:00:00+00:00"
+modified_date_ISO: "2025-05-25T18:00:00+00:00"
+review: After testing the Olay Regenerist Revitalising Hydration Cream SPF 15, we found it to be a comprehensive daytime moisturizer that effectively combines hydration, anti-aging benefits, and sun protection. Formulated with key ingredients like niacinamide (vitamin B3), palmitoyl pentapeptide-4, hyaluronic acid, and green tea extract, this cream works synergistically to improve skin elasticity, reduce fine lines, and enhance overall texture. The inclusion of SPF 15 provides essential UVA/UVB protection, making it suitable for daily use. Its lightweight, non-greasy texture absorbs quickly, allowing for seamless application under makeup. Users have reported noticeable improvements in skin firmness and hydration within a few weeks of consistent use. However, individuals with sensitive skin may want to perform a patch test, as some have noted mild irritation. For optimal results, apply the cream evenly to the face and neck each morning after cleansing. Overall, this day cream offers a balanced approach to daily skincare, providing both moisture and protection against environmental stressors.
 ---
 {% include buy.html description="50 ml" title=page.title button_text="Rs 2,099 from Daraz" link="https://s.daraz.com.np/s.jsx1?cc" %}
