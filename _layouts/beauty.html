@@ -15,6 +15,33 @@ layout: compress
   <link rel="preload" href="{{page.title_img}}-1280w.webp" as="image" type="image/webp" fetchpriority="high"
     media="(min-width: 993px)">
 </head>
+{% if page.brand == "Cetaphil" %}
+{% assign data = site.data.beauty.cetaphil-list %}
+{% elsif page.brand == "Minimalist" %}
+{% assign data = site.data.beauty.minimalist-list %}
+{% elsif page.brand == "Olay" %}
+{% assign data = site.data.beauty.olay-list %}
+{% elsif page.brand == "COSRX" %}
+{% assign data = site.data.beauty.cosrx-list %}
+{% endif %}
+
+{% assign parts = page.sku | split: '-' %}
+{% assign last_part = parts | last %}
+{% assign last_integer = last_part | plus: 0 %}
+
+{% assign all_items = data %}
+{% assign start_index = last_integer %}
+{% assign all_items_size = all_items | size %}
+{% if all_items_size >= 3 %}
+{% assign no_of_item = 3 %}
+{% else %}
+{% assign no_of_item = all_items_size %}
+{% endif %}
+
+{% assign end_slice = all_items | slice: start_index, no_of_item %}
+{% assign remaining = no_of_item | minus: end_slice.size %}
+{% assign wrap_slice = all_items | slice: 0, remaining %}
+{% assign final_items = end_slice | concat: wrap_slice %}
 <div data-pagefind-meta="image[src]" src="{{page.title_img}}-640w.webp">
 </div>
 
@@ -58,7 +85,8 @@ layout: compress
       <div class="row">
         <div class="col-md-6 align-self-center text-md-left">
           <div class="content">
-            <h3 class=""><a class="link-title" href="#section-ingredients" title="What are its ingredients">What are its
+            <h3 class=""><a class="link-title" href="#section-ingredients" title="What are its ingredients">What are
+                its
                 ingredients</a></h3>
             <h3 class=""><a class="link-title" href="#sectionSuit" title="Who is it for">Who is it for</a></h3>
             <h3 class=""><a class="link-title" href="#sectionAboutBrand" title="What {{page.brand}} stands for">What
@@ -113,7 +141,8 @@ layout: compress
           <div class="heading pb-28">
             <h2>Will this product suit you</h2>
             <p>Not every product suits every skin—but not trying what your skin truly needs could mean holding onto
-              issues longer than you have to. The real risk isn’t trying—it’s missing the one that could’ve worked. So,
+              issues longer than you have to. The real risk isn’t trying—it’s missing the one that could’ve worked.
+              So,
               we made sure if {{page.title}} suits you.</p>
           </div>
           <div class="col-md-12 order-md-1 order-2 align-self-center mb-5">
@@ -255,9 +284,53 @@ layout: compress
             <p>
               {{page.about_brand}}
             </p>
-            <a href="/{{page.brand | downcase}}" class="btn btn-main" title="Browse All {{page.brand}} Products">Browse
-              All
-              {{page.brand}} Products</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sectionAbout">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-12 align-self-center text-center text-md-left">
+          <div class="content">
+            <h2 class="subheading mb-10">More products by {{page.brand}}</h2>
+          </div>
+        </div>
+        {% for item in final_items %}
+        <div class="col-md-3 mb-4 text-center">
+          <div class="block">
+            <img class="img-fluid" loading="lazy" src="/images/{{item.thumb}}-thumb-200w.webp" srcset="/images/{{item.thumb}}-100w.webp 100w,
+                                                 /images/{{item.thumb}}-thumb-200w.webp 200w,
+                                                 /images/{{item.thumb}}-thumb-300w.webp 300w,
+                                                 /images/{{item.thumb}}-thumb-400w.webp 400w" alt="{{item.title}}"
+              sizes="(max-width: 767px) 100vw,
+                                                 (min-width: 768px) calc(3/12 * 100vw)" width="225" height="215">
+          </div>
+          <div class="product-info">
+            <h2 class="mb-2" style="font-size: 16px; line-height: 20px;"><a href="/{{ item.url }}"
+                class="link-title">{{item.title}}</a>
+            </h2>
+          </div>
+        </div>
+        {% endfor %}
+        <div class="col-md-3 mb-4 text-center">
+          <div class="block">
+            <img class="img-fluid" loading="lazy" src="/images/brands/{{page.brand | downcase}}-logo-thumb-160w.webp"
+              srcset="/images/brands/{{page.brand | downcase}}-logo-thumb-80w.webp 80w,
+                                                                     /images/brands/{{page.brand | downcase}}-logo-thumb-160w.webp 160w,
+                                                                     /images/brands/{{page.brand | downcase}}-logo-thumb-215w.webp 215w,
+                                                                     /images/brands/{{page.brand | downcase}}-logo-thumb-320w.webp 320w,
+                                                                     /images/brands/{{page.brand | downcase}}-logo-thumb-430w.webp 430w"
+              sizes="(max-width: 767px) 100vw,
+                                            (min-width: 768px) calc(3/12 * 100vw)" width="215" height="215"
+              alt="{{page.title}} logo">
+          </div>
+          <div class="product-info">
+            <h2 class="mb-2" style="font-size: 16px; line-height: 20px;"><a href="/{{page.brand | downcase}}"
+                class="link-title">Browse All {{page.brand}} Products</a></a>
+            </h2>
           </div>
         </div>
       </div>
