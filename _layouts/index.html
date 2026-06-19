@@ -40,7 +40,7 @@ layout: compress
             </h2>
           </div>
           <div class="content">
-            <div id="search"></div>
+            <!-- <div id="search"></div> -->
           </div>
         </div>
       </div>
@@ -55,18 +55,18 @@ layout: compress
 <script src="/asset/pagefind/pagefind-ui.js"></script>
 
 <script>
-  window.addEventListener('DOMContentLoaded', (event) => {
-    new PagefindUI({
-      element: "#search", baseUrl: "/", processResult: function (result) {
-        if (result.url.endsWith(".html")) {
-          result.url = result.url.replace(/\.html$/, "");
-        } else {
-          result.url = result.url.slice(0, -1) + "";
-        }
-        return result;
-      }
-    });
-  });
+  // window.addEventListener('DOMContentLoaded', (event) => {
+  //   new PagefindUI({
+  //     element: "#search", baseUrl: "/", processResult: function (result) {
+  //       if (result.url.endsWith(".html")) {
+  //         result.url = result.url.replace(/\.html$/, "");
+  //       } else {
+  //         result.url = result.url.slice(0, -1) + "";
+  //       }
+  //       return result;
+  //     }
+  //   });
+  // });
 </script>
 
 
